@@ -253,7 +253,7 @@ docker-compose up -d
 
 ## 📦 Building for Production
 ```bash
-# Install EAS CLI
+# Install EAS CLIaa
 npm install -g eas-cli
 
 # Login to Expo

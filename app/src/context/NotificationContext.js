@@ -82,7 +82,9 @@ export const NotificationProvider = ({ children }) => {
       // Get push token
       //const token = (await Notifications.getExpoPushTokenAsync({ projectId: '159db026-f27d-44a0-9904-aa14952a62ee' })).data;
 
-      const token = (await Notifications.getExpoPushTokenAsync({ projectId: '159db026-f27d-44a0-9904-aa14952a62ee' })).data;
+      const token = (await Notifications.getExpoPushTokenAsync({
+  projectId: '159db026-f27d-44a0-9904-aa14952a62ee'
+})).data;
 
       setExpoPushToken(token);
 
@@ -94,9 +96,10 @@ export const NotificationProvider = ({ children }) => {
 
       // Configure notification channel for Android
       if (Platform.OS === 'android') {
-        await Notifications.setNotificationChannelAsync('medicine-reminders', {
-          name: 'Medicine Reminders',
-          importance: Notifications.AndroidImportance.MAX,
+       await Notifications.setNotificationChannelAsync('default', {
+  name: 'default',
+  importance: Notifications.AndroidImportance.MAX,
+
           vibrationPattern: [0, 250, 250, 250],
           lightColor: '#667eea',
           sound: 'default',
@@ -155,27 +158,39 @@ export const NotificationProvider = ({ children }) => {
     }
   };
 
-  const scheduleLocalNotification = async (title, body, data = {}, triggerTime) => {
-    try {
-      const trigger = triggerTime ? { date: new Date(triggerTime) } : null;
+ const scheduleLocalNotification = async (title, body, data = {}, triggerTime) => {
+  try {
+    let trigger = null;
 
-      const notificationId = await Notifications.scheduleNotificationAsync({
-        content: {
-          title,
-          body,
-          data,
-          sound: 'default',
-          priority: Notifications.AndroidNotificationPriority.HIGH,
-        },
-        trigger,
-      });
+    if (triggerTime) {
+      const date = new Date(triggerTime);
+      const now = new Date();
 
-      return notificationId;
-    } catch (error) {
-      console.error('Error scheduling local notification:', error);
-      return null;
+      // If time passed → move to future (IMPORTANT)
+      if (date <= now) {
+        date.setSeconds(date.getSeconds() + 10); // test: +10 sec
+      }
+
+      trigger = date;
     }
-  };
+
+    const notificationId = await Notifications.scheduleNotificationAsync({
+      content: {
+        title,
+        body,
+        data,
+        sound: 'default',
+      },
+      trigger,
+    });
+
+    console.log("Scheduled at:", trigger);
+    return notificationId;
+  } catch (error) {
+    console.error('Error scheduling local notification:', error);
+    return null;
+  }
+};
 
   const cancelLocalNotification = async (notificationId) => {
     try {
@@ -226,12 +241,12 @@ export const NotificationProvider = ({ children }) => {
 
   const sendTestNotification = async () => {
     try {
-      await scheduleLocalNotification(
-        'Test Notification',
-        'This is a test notification from Smart Medicine Reminder',
-        { type: 'test' },
-        new Date(Date.now() + 5000) // 5 seconds from now
-      );
+     await scheduleLocalNotification(
+  "💊 Medicine Reminder",
+  "Time to take your medicine",
+  { type: "medicine-reminder" },
+  new Date(Date.now() + 60000) // next 1 minute
+);
       return { success: true };
     } catch (error) {
       console.error('Error sending test notification:', error);
