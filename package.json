@@ -1,0 +1,86 @@
+{
+  "name": "smart-medicine-reminder-system",
+  "version": "1.0.0",
+  "description": "A comprehensive mobile healthcare application for medication management and consultations",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "app",
+    "server"
+  ],
+  "scripts": {
+    "install:all": "npm install && cd app && npm install && cd ../server && npm install",
+    "start:server": "cd server && npm run dev",
+    "start:app": "cd app && expo start",
+    "start:both": "concurrently \"npm run start:server\" \"npm run start:app\"",
+    "build:server": "cd server && npm run build",
+    "build:app": "cd app && expo build:android && expo build:ios",
+    "test": "npm run test:server && npm run test:app",
+    "test:server": "cd server && npm test",
+    "test:app": "cd app && npm test",
+    "lint": "npm run lint:server && npm run lint:app",
+    "lint:server": "cd server && npm run lint",
+    "lint:app": "cd app && npm run lint",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "docker:logs": "docker-compose logs -f",
+    "docker:rebuild": "docker-compose up -d --build",
+    "clean": "npm run clean:server && npm run clean:app",
+    "clean:server": "cd server && rm -rf node_modules package-lock.json",
+    "clean:app": "cd app && rm -rf node_modules package-lock.json",
+    "clean:all": "npm run clean && rm -rf node_modules package-lock.json"
+  },
+  "keywords": [
+    "healthcare",
+    "medicine-reminder",
+    "react-native",
+    "expo",
+    "nodejs",
+    "mongodb",
+    "telemedicine",
+    "consultation",
+    "mobile-app"
+  ],
+  "author": "College Project Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.1.1"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/smart-medicine-reminder-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/smart-medicine-reminder-system/issues"
+  },
+  "homepage": "https://github.com/yourusername/smart-medicine-reminder-system#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.{json,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "expo-asset": "^55.0.8",
+    "expo-camera": "^55.0.9",
+    "expo-document-picker": "^55.0.8",
+    "node-cron": "^4.2.1"
+  }
+}

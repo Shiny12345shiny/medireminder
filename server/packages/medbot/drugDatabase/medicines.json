@@ -1,0 +1,3352 @@
+{
+  "medicines": [
+    {
+      "medicineName": "Metformin",
+      "genericName": "Metformin Hydrochloride",
+      "brandNames": ["Glucophage", "Glycomet", "Obimet", "Gluformin", "Metlong"],
+      "category": "Antidiabetic",
+      "class": "Biguanide",
+      "uses": ["Type 2 Diabetes Mellitus", "Polycystic Ovary Syndrome (PCOS)", "Prediabetes", "Insulin resistance"],
+      "dosage": {
+        "adult": {
+          "starting": "500mg once or twice daily with meals",
+          "maximum": "2550mg per day in divided doses",
+          "typical": "500–1000mg twice daily with meals"
+        },
+        "elderly": "Start at lower doses (500mg once daily); renal function monitoring required; avoid if eGFR <30",
+        "children": "Children ≥10 years: 500mg twice daily; max 2000mg/day"
+      },
+      "timing": {
+        "withFood": true,
+        "emptyStomach": false,
+        "preferredTimes": ["With breakfast", "With dinner", "With lunch for TID dosing"],
+        "avoid": ["Alcohol consumption", "Iodinated contrast procedures (hold 48 hrs)"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Nausea", "frequency": "Very common (>10%)", "severity": "Mild"},
+          {"name": "Diarrhea", "frequency": "Very common (>10%)", "severity": "Mild"},
+          {"name": "Abdominal discomfort", "frequency": "Common (5–10%)", "severity": "Mild"},
+          {"name": "Metallic taste", "frequency": "Common (5–10%)", "severity": "Mild"},
+          {"name": "Vitamin B12 deficiency", "frequency": "Common with long-term use", "severity": "Moderate"}
+        ],
+        "serious": [
+          {"name": "Lactic acidosis", "frequency": "Rare (<0.01%)", "severity": "Severe/Life-threatening"},
+          {"name": "Severe hypoglycemia (in combination)", "frequency": "Rare", "severity": "Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Alcohol", "severity": "Moderate", "effect": "Increased risk of lactic acidosis", "recommendation": "Avoid excessive alcohol"},
+          {"drug": "Iodinated contrast agents", "severity": "Moderate", "effect": "Risk of acute renal failure and lactic acidosis", "recommendation": "Hold metformin 48 hours before and after contrast"},
+          {"drug": "Cimetidine", "severity": "Minor", "effect": "Increases metformin plasma levels", "recommendation": "Monitor blood glucose"},
+          {"drug": "Topiramate", "severity": "Moderate", "effect": "May increase metformin exposure", "recommendation": "Monitor for side effects"}
+        ],
+        "foodInteractions": [
+          {"food": "Alcohol", "effect": "Increased lactic acidosis risk"},
+          {"food": "High-carbohydrate meals", "effect": "May affect glucose control; take with meals to minimize GI side effects"}
+        ]
+      },
+      "contraindications": [
+        "eGFR < 30 mL/min/1.73m²",
+        "Metabolic acidosis (including diabetic ketoacidosis)",
+        "Hypersensitivity to metformin",
+        "Severe hepatic impairment",
+        "Acute/decompensated heart failure"
+      ],
+      "warnings": {
+        "pregnancy": "Category B – generally considered safe; often continued or started in gestational diabetes under medical supervision",
+        "breastfeeding": "Small amounts in breast milk; generally considered compatible with breastfeeding",
+        "elderly": "Use with caution; renal function must be assessed regularly; avoid if eGFR < 30",
+        "kidneyDisease": "Contraindicated if eGFR < 30; use with caution if eGFR 30–45; dose reduction may be needed"
+      },
+      "monitoring": [
+        "Blood glucose (fasting and postprandial)",
+        "HbA1c every 3–6 months",
+        "Renal function (eGFR) annually or more frequently if at risk",
+        "Vitamin B12 levels annually with long-term use",
+        "Liver function tests periodically"
+      ],
+      "storage": "Store at room temperature (15–30°C), away from moisture and heat",
+      "costRange": {
+        "generic": "₹20–₹80 per 30 tablets (India); $4–$15 per 30 tablets (US)",
+        "brand": "₹80–₹200 per 30 tablets (India); $20–$50 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Glimepiride",
+      "genericName": "Glimepiride",
+      "brandNames": ["Amaryl", "Glimestar", "Glimpid", "Glimy", "Zomelis"],
+      "category": "Antidiabetic",
+      "class": "Sulfonylurea",
+      "uses": ["Type 2 Diabetes Mellitus"],
+      "dosage": {
+        "adult": {
+          "starting": "1–2mg once daily with first main meal",
+          "maximum": "8mg per day",
+          "typical": "2–4mg once daily with breakfast"
+        },
+        "elderly": "Start with 1mg daily; hypoglycemia risk is higher; careful titration required",
+        "children": "Not recommended for children"
+      },
+      "timing": {
+        "withFood": true,
+        "emptyStomach": false,
+        "preferredTimes": ["With breakfast", "With first main meal of the day"],
+        "avoid": ["Skipping meals after dose", "Excessive alcohol"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Hypoglycemia", "frequency": "Common (5–10%)", "severity": "Moderate to Severe"},
+          {"name": "Weight gain", "frequency": "Common", "severity": "Mild"},
+          {"name": "Nausea", "frequency": "Uncommon (1–5%)", "severity": "Mild"},
+          {"name": "Dizziness", "frequency": "Uncommon", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "Severe hypoglycemia", "frequency": "Uncommon (1–5%)", "severity": "Severe/Life-threatening"},
+          {"name": "Agranulocytosis", "frequency": "Very rare (<0.01%)", "severity": "Severe"},
+          {"name": "Hemolytic anemia", "frequency": "Very rare", "severity": "Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Fluconazole", "severity": "Major", "effect": "Significantly increases glimepiride levels and hypoglycemia risk", "recommendation": "Avoid combination or monitor very closely"},
+          {"drug": "NSAIDs", "severity": "Moderate", "effect": "May enhance hypoglycemic effect", "recommendation": "Monitor blood glucose"},
+          {"drug": "Beta-blockers", "severity": "Moderate", "effect": "May mask hypoglycemia symptoms", "recommendation": "Use with caution; monitor blood glucose"},
+          {"drug": "Alcohol", "severity": "Moderate", "effect": "Enhanced hypoglycemic effect and disulfiram-like reaction", "recommendation": "Avoid alcohol"}
+        ],
+        "foodInteractions": [
+          {"food": "Alcohol", "effect": "Increased hypoglycemia risk and flushing"},
+          {"food": "Skipped meals", "effect": "Serious hypoglycemia risk"}
+        ]
+      },
+      "contraindications": [
+        "Type 1 diabetes",
+        "Diabetic ketoacidosis",
+        "Severe renal or hepatic impairment",
+        "Hypersensitivity to sulfonylureas or sulfonamides",
+        "Pregnancy"
+      ],
+      "warnings": {
+        "pregnancy": "Category C – not recommended; switch to insulin during pregnancy",
+        "breastfeeding": "Not recommended; may cause hypoglycemia in infant",
+        "elderly": "High risk of hypoglycemia; start at 1mg and titrate slowly",
+        "kidneyDisease": "Use with caution; accumulation risk; may need dose reduction; avoid in severe renal failure"
+      },
+      "monitoring": [
+        "Blood glucose (fasting and postprandial)",
+        "HbA1c every 3 months initially, then every 6 months",
+        "Renal and liver function tests",
+        "Signs and symptoms of hypoglycemia",
+        "Body weight"
+      ],
+      "storage": "Store below 30°C, protect from moisture and light",
+      "costRange": {
+        "generic": "₹30–₹100 per 30 tablets (India); $10–$25 per 30 tablets (US)",
+        "brand": "₹150–₹400 per 30 tablets (India); $40–$90 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Sitagliptin",
+      "genericName": "Sitagliptin Phosphate",
+      "brandNames": ["Januvia", "Istavel", "Zita", "Sitaglo", "Glipivit"],
+      "category": "Antidiabetic",
+      "class": "DPP-4 Inhibitor (Gliptin)",
+      "uses": ["Type 2 Diabetes Mellitus", "Adjunct to diet and exercise"],
+      "dosage": {
+        "adult": {
+          "starting": "100mg once daily",
+          "maximum": "100mg once daily",
+          "typical": "100mg once daily (regardless of meals)"
+        },
+        "elderly": "No dose adjustment needed based on age alone; adjust for renal function",
+        "children": "Not approved for children under 18"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["Any time of day", "Same time each day"],
+        "avoid": []
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Nasopharyngitis", "frequency": "Common (5%)", "severity": "Mild"},
+          {"name": "Upper respiratory tract infection", "frequency": "Common (5%)", "severity": "Mild"},
+          {"name": "Headache", "frequency": "Common (5%)", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "Pancreatitis", "frequency": "Rare", "severity": "Severe"},
+          {"name": "Severe hypersensitivity reactions (angioedema)", "frequency": "Rare", "severity": "Severe"},
+          {"name": "Severe arthralgia", "frequency": "Rare", "severity": "Moderate to Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Insulin/Sulfonylureas", "severity": "Moderate", "effect": "Increased hypoglycemia risk", "recommendation": "May need dose reduction of insulin or sulfonylurea"},
+          {"drug": "Digoxin", "severity": "Minor", "effect": "Slight increase in digoxin levels", "recommendation": "Monitor digoxin levels"}
+        ],
+        "foodInteractions": [
+          {"food": "No significant food interactions", "effect": "Can be taken with or without food"}
+        ]
+      },
+      "contraindications": [
+        "Type 1 diabetes",
+        "Diabetic ketoacidosis",
+        "History of pancreatitis",
+        "Hypersensitivity to sitagliptin"
+      ],
+      "warnings": {
+        "pregnancy": "Category B – insufficient data; use only if clearly needed",
+        "breastfeeding": "Unknown if excreted in breast milk; caution advised",
+        "elderly": "No dose adjustment based on age; monitor renal function",
+        "kidneyDisease": "Dose reduction required: eGFR 30–45: 50mg/day; eGFR <30 or dialysis: 25mg/day"
+      },
+      "monitoring": [
+        "Blood glucose and HbA1c",
+        "Renal function (eGFR) at baseline and periodically",
+        "Signs of pancreatitis (severe abdominal pain)",
+        "Signs of heart failure"
+      ],
+      "storage": "Store at 20–25°C; excursions permitted to 15–30°C",
+      "costRange": {
+        "generic": "₹200–₹500 per 30 tablets (India); $50–$100 per 30 tablets (US)",
+        "brand": "₹600–₹1200 per 30 tablets (India); $400–$500 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Glipizide",
+      "genericName": "Glipizide",
+      "brandNames": ["Glucotrol", "Minidiab", "Glibenese", "Glipid"],
+      "category": "Antidiabetic",
+      "class": "Sulfonylurea",
+      "uses": ["Type 2 Diabetes Mellitus"],
+      "dosage": {
+        "adult": {
+          "starting": "5mg once daily 30 minutes before breakfast",
+          "maximum": "40mg per day (20mg for extended-release)",
+          "typical": "5–10mg twice daily before meals"
+        },
+        "elderly": "Start at 2.5mg; increased hypoglycemia risk",
+        "children": "Not recommended"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": true,
+        "preferredTimes": ["30 minutes before breakfast", "30 minutes before meals"],
+        "avoid": ["Skipping meals", "Alcohol"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Hypoglycemia", "frequency": "Common", "severity": "Moderate to Severe"},
+          {"name": "Weight gain", "frequency": "Common", "severity": "Mild"},
+          {"name": "GI upset", "frequency": "Uncommon", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "Severe hypoglycemia", "frequency": "Uncommon", "severity": "Severe"},
+          {"name": "Hepatotoxicity", "frequency": "Very rare", "severity": "Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Fluconazole", "severity": "Major", "effect": "Increases glipizide levels", "recommendation": "Avoid or monitor closely"},
+          {"drug": "Beta-blockers", "severity": "Moderate", "effect": "Masks hypoglycemia symptoms", "recommendation": "Monitor blood glucose"}
+        ],
+        "foodInteractions": [
+          {"food": "Alcohol", "effect": "Enhanced hypoglycemia and flushing"},
+          {"food": "Grapefruit juice", "effect": "May slightly increase drug levels"}
+        ]
+      },
+      "contraindications": [
+        "Type 1 diabetes",
+        "Diabetic ketoacidosis",
+        "Severe renal or hepatic impairment",
+        "Hypersensitivity to sulfonylureas"
+      ],
+      "warnings": {
+        "pregnancy": "Category C – not recommended; use insulin instead",
+        "breastfeeding": "Not recommended",
+        "elderly": "Start low (2.5mg); high hypoglycemia risk",
+        "kidneyDisease": "Use with extreme caution; avoid in severe renal impairment"
+      },
+      "monitoring": [
+        "Blood glucose",
+        "HbA1c",
+        "Renal and liver function",
+        "Hypoglycemia symptoms"
+      ],
+      "storage": "Store at controlled room temperature (15–30°C)",
+      "costRange": {
+        "generic": "₹20–₹60 per 30 tablets (India); $4–$15 per 30 tablets (US)",
+        "brand": "₹100–₹250 per 30 tablets (India); $20–$50 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Insulin Glargine",
+      "genericName": "Insulin Glargine",
+      "brandNames": ["Lantus", "Basaglar", "Toujeo", "Glaritus", "Basalin"],
+      "category": "Antidiabetic",
+      "class": "Long-acting Insulin Analogue",
+      "uses": ["Type 1 Diabetes Mellitus", "Type 2 Diabetes Mellitus"],
+      "dosage": {
+        "adult": {
+          "starting": "10 units subcutaneously once daily (or 0.1–0.2 units/kg/day)",
+          "maximum": "Individualized; no strict maximum",
+          "typical": "0.2–0.5 units/kg/day once daily"
+        },
+        "elderly": "Start conservatively (0.1 units/kg/day); higher hypoglycemia risk",
+        "children": "Children ≥6 years: same as adult dosing; individualized"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["Same time every day (bedtime or morning)", "Consistent daily schedule"],
+        "avoid": ["Intravenous administration", "Mixing with other insulins"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Hypoglycemia", "frequency": "Common", "severity": "Moderate to Severe"},
+          {"name": "Injection site reactions", "frequency": "Common", "severity": "Mild"},
+          {"name": "Weight gain", "frequency": "Common", "severity": "Mild"},
+          {"name": "Lipodystrophy at injection sites", "frequency": "Common with poor rotation", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "Severe hypoglycemia", "frequency": "Uncommon", "severity": "Severe/Life-threatening"},
+          {"name": "Anaphylaxis", "frequency": "Very rare", "severity": "Severe/Life-threatening"},
+          {"name": "Hypokalemia", "frequency": "Uncommon", "severity": "Moderate to Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Alcohol", "severity": "Major", "effect": "Enhanced hypoglycemic effect", "recommendation": "Avoid excessive alcohol; monitor blood glucose"},
+          {"drug": "Beta-blockers", "severity": "Moderate", "effect": "May mask hypoglycemia symptoms", "recommendation": "Monitor blood glucose carefully"},
+          {"drug": "Corticosteroids", "severity": "Moderate", "effect": "Increase blood glucose; may require insulin dose increase", "recommendation": "Monitor and adjust insulin dose"}
+        ],
+        "foodInteractions": [
+          {"food": "Alcohol", "effect": "Increases hypoglycemia risk, especially on empty stomach"},
+          {"food": "Carbohydrate intake changes", "effect": "Affects glucose control and insulin requirements"}
+        ]
+      },
+      "contraindications": [
+        "Hypoglycemia (active)",
+        "Hypersensitivity to insulin glargine or any excipient",
+        "Do not dilute or mix with any other insulin"
+      ],
+      "warnings": {
+        "pregnancy": "Category C – used in pregnancy under close medical supervision; dose adjustments required",
+        "breastfeeding": "May be used; monitor infant for hypoglycemia",
+        "elderly": "Use with caution; reduced hypoglycemia awareness; start at lower doses",
+        "kidneyDisease": "Insulin requirements may decrease with renal impairment; monitor closely"
+      },
+      "monitoring": [
+        "Blood glucose (fasting and postprandial)",
+        "HbA1c every 3 months",
+        "Injection sites for lipodystrophy",
+        "Potassium levels (in high-risk patients)",
+        "Signs and symptoms of hypoglycemia"
+      ],
+      "storage": "Unopened: refrigerate (2–8°C); Opened: room temperature up to 28 days; do not freeze",
+      "costRange": {
+        "generic": "₹800–₹1500 per 10mL vial (India); $25–$50 per vial biosimilar (US)",
+        "brand": "₹1500–₹2500 per vial (India); $300–$400 per vial (US)"
+      }
+    },
+    {
+      "medicineName": "Amlodipine",
+      "genericName": "Amlodipine Besylate",
+      "brandNames": ["Norvasc", "Amlip", "Amlong", "Stamlo", "Amlogard"],
+      "category": "Antihypertensive",
+      "class": "Calcium Channel Blocker (Dihydropyridine)",
+      "uses": ["Hypertension", "Angina pectoris", "Coronary artery disease", "Vasospastic angina"],
+      "dosage": {
+        "adult": {
+          "starting": "5mg once daily",
+          "maximum": "10mg once daily",
+          "typical": "5–10mg once daily"
+        },
+        "elderly": "Start at 2.5mg; increase slowly; increased risk of hypotension",
+        "children": "Children 6–17 years: 2.5–5mg once daily"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["Any time of day", "Same time daily", "Morning preferred"],
+        "avoid": ["Grapefruit juice"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Peripheral edema (ankle swelling)", "frequency": "Very common (10–15%)", "severity": "Mild to Moderate"},
+          {"name": "Flushing", "frequency": "Common (5%)", "severity": "Mild"},
+          {"name": "Headache", "frequency": "Common (5–8%)", "severity": "Mild"},
+          {"name": "Dizziness", "frequency": "Common (5%)", "severity": "Mild"},
+          {"name": "Fatigue", "frequency": "Common (5%)", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "Severe hypotension", "frequency": "Rare", "severity": "Severe"},
+          {"name": "Worsening angina on initiation", "frequency": "Rare", "severity": "Moderate to Severe"},
+          {"name": "Hepatitis", "frequency": "Very rare", "severity": "Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Simvastatin", "severity": "Moderate", "effect": "Increases simvastatin levels; risk of myopathy", "recommendation": "Limit simvastatin to 20mg/day with amlodipine"},
+          {"drug": "Cyclosporine", "severity": "Moderate", "effect": "Increases cyclosporine levels", "recommendation": "Monitor cyclosporine levels"},
+          {"drug": "Tacrolimus", "severity": "Moderate", "effect": "Increases tacrolimus levels", "recommendation": "Monitor tacrolimus levels"}
+        ],
+        "foodInteractions": [
+          {"food": "Grapefruit/Grapefruit juice", "effect": "Increases amlodipine levels; may increase side effects"},
+          {"food": "High-fat meal", "effect": "No significant effect on absorption"}
+        ]
+      },
+      "contraindications": [
+        "Hypersensitivity to amlodipine or other dihydropyridines",
+        "Severe aortic stenosis",
+        "Cardiogenic shock",
+        "Unstable angina (relative)"
+      ],
+      "warnings": {
+        "pregnancy": "Category C – use only if benefit outweighs risk; may inhibit labor",
+        "breastfeeding": "Not recommended; unknown excretion in breast milk",
+        "elderly": "Start at 2.5mg; increased risk of falls due to hypotension",
+        "kidneyDisease": "No dose adjustment needed; not significantly renally cleared"
+      },
+      "monitoring": [
+        "Blood pressure regularly",
+        "Heart rate",
+        "Signs of peripheral edema",
+        "Liver function tests (if symptomatic)",
+        "Weight (for edema monitoring)"
+      ],
+      "storage": "Store below 30°C, protect from moisture and light",
+      "costRange": {
+        "generic": "₹15–₹60 per 30 tablets (India); $4–$15 per 30 tablets (US)",
+        "brand": "₹80–₹200 per 30 tablets (India); $30–$60 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Lisinopril",
+      "genericName": "Lisinopril",
+      "brandNames": ["Zestril", "Prinivil", "Listril", "Hipril", "Lisoril"],
+      "category": "Antihypertensive",
+      "class": "ACE Inhibitor",
+      "uses": ["Hypertension", "Heart failure", "Post-myocardial infarction", "Diabetic nephropathy", "Proteinuria reduction"],
+      "dosage": {
+        "adult": {
+          "starting": "5–10mg once daily",
+          "maximum": "40mg once daily (80mg in some heart failure protocols)",
+          "typical": "10–40mg once daily"
+        },
+        "elderly": "Start at 2.5–5mg; titrate carefully; monitor renal function",
+        "children": "Children ≥6 years: 0.07mg/kg/day; max 5mg initial dose"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["Morning preferred", "Any consistent time daily"],
+        "avoid": ["Salt substitutes high in potassium", "NSAIDs"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Dry persistent cough", "frequency": "Common (10–20%)", "severity": "Mild to Moderate"},
+          {"name": "Dizziness", "frequency": "Common (5–12%)", "severity": "Mild"},
+          {"name": "Headache", "frequency": "Common (5%)", "severity": "Mild"},
+          {"name": "Hyperkalemia", "frequency": "Common (5%)", "severity": "Moderate"},
+          {"name": "Fatigue", "frequency": "Common", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "Angioedema", "frequency": "Rare (0.1–0.5%)", "severity": "Severe/Life-threatening"},
+          {"name": "Acute renal failure (in bilateral renal artery stenosis)", "frequency": "Rare", "severity": "Severe"},
+          {"name": "Severe hypotension (first dose)", "frequency": "Uncommon", "severity": "Moderate to Severe"},
+          {"name": "Agranulocytosis", "frequency": "Very rare", "severity": "Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Potassium supplements / Potassium-sparing diuretics", "severity": "Major", "effect": "Severe hyperkalemia risk", "recommendation": "Avoid combination; monitor potassium levels closely"},
+          {"drug": "NSAIDs", "severity": "Moderate", "effect": "Reduces antihypertensive effect; increases renal failure risk", "recommendation": "Avoid regular NSAIDs; use paracetamol instead"},
+          {"drug": "Lithium", "severity": "Moderate", "effect": "Increases lithium toxicity", "recommendation": "Monitor lithium levels frequently"},
+          {"drug": "Aliskiren", "severity": "Major", "effect": "Dual RAAS blockade; increased adverse effects", "recommendation": "Contraindicated in diabetes or renal impairment"}
+        ],
+        "foodInteractions": [
+          {"food": "High-potassium foods (bananas, oranges)", "effect": "Risk of hyperkalemia"},
+          {"food": "Salt substitutes containing potassium chloride", "effect": "Risk of hyperkalemia"}
+        ]
+      },
+      "contraindications": [
+        "History of ACE inhibitor-induced angioedema",
+        "Hereditary or idiopathic angioedema",
+        "Pregnancy (especially 2nd and 3rd trimester)",
+        "Bilateral renal artery stenosis",
+        "Concomitant use with aliskiren in diabetics"
+      ],
+      "warnings": {
+        "pregnancy": "Category D – contraindicated; causes fetal renal dysplasia, death; stop immediately if pregnancy detected",
+        "breastfeeding": "Not recommended; excreted in breast milk",
+        "elderly": "Start at lower doses; monitor renal function and potassium levels",
+        "kidneyDisease": "Dose reduction required; monitor creatinine and potassium; may worsen renal function initially"
+      },
+      "monitoring": [
+        "Blood pressure regularly",
+        "Renal function (creatinine, eGFR)",
+        "Serum potassium",
+        "Signs of angioedema (throat/tongue/lip swelling)",
+        "Dry cough (may require switching to ARB)"
+      ],
+      "storage": "Store at room temperature (15–30°C), protect from moisture",
+      "costRange": {
+        "generic": "₹20–₹80 per 30 tablets (India); $4–$15 per 30 tablets (US)",
+        "brand": "₹100–₹300 per 30 tablets (India); $30–$70 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Atenolol",
+      "genericName": "Atenolol",
+      "brandNames": ["Tenormin", "Aten", "Betacard", "Atenol", "Catenol"],
+      "category": "Antihypertensive",
+      "class": "Beta-1 Selective Adrenergic Blocker",
+      "uses": ["Hypertension", "Angina pectoris", "Cardiac arrhythmias", "Post-MI cardioprotection", "Migraine prophylaxis"],
+      "dosage": {
+        "adult": {
+          "starting": "25–50mg once daily",
+          "maximum": "100mg once daily (200mg in arrhythmias)",
+          "typical": "50–100mg once daily"
+        },
+        "elderly": "Start at 25mg; cautious titration; monitor for bradycardia",
+        "children": "0.5–1mg/kg/day; max 2mg/kg/day"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["Morning", "Same time daily"],
+        "avoid": ["Abrupt discontinuation (taper gradually)"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Bradycardia", "frequency": "Common", "severity": "Moderate"},
+          {"name": "Fatigue", "frequency": "Common (5–10%)", "severity": "Mild"},
+          {"name": "Cold extremities", "frequency": "Common", "severity": "Mild"},
+          {"name": "Dizziness", "frequency": "Common", "severity": "Mild"},
+          {"name": "Depression", "frequency": "Uncommon", "severity": "Mild to Moderate"}
+        ],
+        "serious": [
+          {"name": "Severe bradycardia/heart block", "frequency": "Uncommon", "severity": "Severe"},
+          {"name": "Bronchospasm (in asthmatics)", "frequency": "Uncommon", "severity": "Severe"},
+          {"name": "Rebound hypertension on abrupt withdrawal", "frequency": "Common if abruptly stopped", "severity": "Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Calcium channel blockers (verapamil/diltiazem)", "severity": "Major", "effect": "Additive negative chronotropic effect; severe bradycardia/heart block", "recommendation": "Avoid combination"},
+          {"drug": "Clonidine", "severity": "Major", "effect": "Rebound hypertension if clonidine stopped first", "recommendation": "Withdraw beta-blocker first, then clonidine"},
+          {"drug": "NSAIDs", "severity": "Moderate", "effect": "Reduced antihypertensive effect", "recommendation": "Avoid regular NSAID use"},
+          {"drug": "Insulin/Antidiabetics", "severity": "Moderate", "effect": "Masks hypoglycemia; prolongs hypoglycemia", "recommendation": "Monitor blood glucose carefully"}
+        ],
+        "foodInteractions": [
+          {"food": "Alcohol", "effect": "Enhanced hypotension"},
+          {"food": "Food in general", "effect": "Can be taken with or without food"}
+        ]
+      },
+      "contraindications": [
+        "Cardiogenic shock",
+        "Sick sinus syndrome (without pacemaker)",
+        "Second or third-degree heart block",
+        "Severe bradycardia (<45 bpm)",
+        "Severe peripheral arterial disease",
+        "Uncontrolled heart failure",
+        "Asthma / Severe COPD (relative contraindication)"
+      ],
+      "warnings": {
+        "pregnancy": "Category D – associated with fetal growth restriction and bradycardia; use only if clearly needed",
+        "breastfeeding": "Excreted in breast milk; monitor infant for bradycardia; consider alternative",
+        "elderly": "Start at lower dose; monitor heart rate and blood pressure",
+        "kidneyDisease": "Dose reduction required; eGFR 15–35: 50mg/day; eGFR <15: 25mg/day"
+      },
+      "monitoring": [
+        "Heart rate and blood pressure",
+        "ECG (if indicated)",
+        "Blood glucose (in diabetics)",
+        "Signs of heart failure",
+        "Renal function"
+      ],
+      "storage": "Store at room temperature, away from light and moisture",
+      "costRange": {
+        "generic": "₹15–₹50 per 30 tablets (India); $4–$12 per 30 tablets (US)",
+        "brand": "₹60–₹150 per 30 tablets (India); $20–$50 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Losartan",
+      "genericName": "Losartan Potassium",
+      "brandNames": ["Cozaar", "Losacar", "Repace", "Losium", "Covance"],
+      "category": "Antihypertensive",
+      "class": "Angiotensin II Receptor Blocker (ARB)",
+      "uses": ["Hypertension", "Diabetic nephropathy (Type 2 diabetes)", "Heart failure", "Stroke prevention in hypertensive patients with left ventricular hypertrophy"],
+      "dosage": {
+        "adult": {
+          "starting": "50mg once daily",
+          "maximum": "100mg once daily",
+          "typical": "50–100mg once daily"
+        },
+        "elderly": "Start at 25–50mg; monitor renal function and blood pressure",
+        "children": "Children 6–16 years: 0.7mg/kg/day (up to 50mg initial dose)"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["Any consistent time daily", "Morning preferred"],
+        "avoid": ["Salt substitutes with potassium"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Dizziness", "frequency": "Common (5%)", "severity": "Mild"},
+          {"name": "Hyperkalemia", "frequency": "Common (5%)", "severity": "Moderate"},
+          {"name": "Fatigue", "frequency": "Common", "severity": "Mild"},
+          {"name": "Hypotension", "frequency": "Uncommon", "severity": "Mild to Moderate"}
+        ],
+        "serious": [
+          {"name": "Angioedema", "frequency": "Rare (0.1%)", "severity": "Severe/Life-threatening"},
+          {"name": "Acute renal failure", "frequency": "Rare (bilateral renal artery stenosis)", "severity": "Severe"},
+          {"name": "Severe hyperkalemia", "frequency": "Uncommon", "severity": "Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Potassium-sparing diuretics / Potassium supplements", "severity": "Major", "effect": "Severe hyperkalemia", "recommendation": "Avoid or monitor potassium very closely"},
+          {"drug": "NSAIDs", "severity": "Moderate", "effect": "Reduced antihypertensive effect; increased renal failure risk", "recommendation": "Avoid regular NSAIDs"},
+          {"drug": "Aliskiren", "severity": "Major", "effect": "Dual RAAS blockade; contraindicated in diabetes/CKD", "recommendation": "Avoid combination"},
+          {"drug": "Lithium", "severity": "Moderate", "effect": "Increased lithium toxicity", "recommendation": "Monitor lithium levels"}
+        ],
+        "foodInteractions": [
+          {"food": "High potassium foods", "effect": "Risk of hyperkalemia with regular ARB use"},
+          {"food": "Salt substitutes", "effect": "Hyperkalemia risk"}
+        ]
+      },
+      "contraindications": [
+        "Pregnancy (especially 2nd and 3rd trimester)",
+        "Bilateral renal artery stenosis",
+        "Hypersensitivity to losartan",
+        "Concomitant aliskiren in patients with diabetes or CKD"
+      ],
+      "warnings": {
+        "pregnancy": "Category D – fetotoxic; discontinue immediately when pregnancy detected",
+        "breastfeeding": "Not recommended",
+        "elderly": "Start at lower dose; monitor closely",
+        "kidneyDisease": "Use with caution; may worsen renal function; monitor creatinine and potassium"
+      },
+      "monitoring": [
+        "Blood pressure",
+        "Renal function (creatinine, eGFR)",
+        "Serum potassium",
+        "Signs of angioedema"
+      ],
+      "storage": "Store at 15–30°C",
+      "costRange": {
+        "generic": "₹25–₹80 per 30 tablets (India); $5–$15 per 30 tablets (US)",
+        "brand": "₹120–₹300 per 30 tablets (India); $30–$80 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Telmisartan",
+      "genericName": "Telmisartan",
+      "brandNames": ["Micardis", "Telma", "Telsartan", "Telpres", "Arbitel"],
+      "category": "Antihypertensive",
+      "class": "Angiotensin II Receptor Blocker (ARB)",
+      "uses": ["Hypertension", "Cardiovascular risk reduction", "Diabetic nephropathy"],
+      "dosage": {
+        "adult": {
+          "starting": "40mg once daily",
+          "maximum": "80mg once daily",
+          "typical": "40–80mg once daily"
+        },
+        "elderly": "40mg once daily; no special dose adjustment needed",
+        "children": "Not established below 18 years"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["Same time daily", "Any time"],
+        "avoid": ["Salt substitutes with potassium"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Dizziness", "frequency": "Common", "severity": "Mild"},
+          {"name": "Upper respiratory infection", "frequency": "Common", "severity": "Mild"},
+          {"name": "Back pain", "frequency": "Common", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "Angioedema", "frequency": "Rare", "severity": "Severe"},
+          {"name": "Hyperkalemia", "frequency": "Uncommon", "severity": "Moderate to Severe"},
+          {"name": "Acute renal failure", "frequency": "Rare", "severity": "Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Digoxin", "severity": "Moderate", "effect": "Increases digoxin levels by ~20–49%", "recommendation": "Monitor digoxin levels"},
+          {"drug": "Potassium-sparing diuretics", "severity": "Major", "effect": "Hyperkalemia risk", "recommendation": "Monitor potassium"},
+          {"drug": "Lithium", "severity": "Moderate", "effect": "Increased lithium toxicity", "recommendation": "Monitor lithium levels"}
+        ],
+        "foodInteractions": [
+          {"food": "High potassium foods", "effect": "Risk of hyperkalemia"}
+        ]
+      },
+      "contraindications": [
+        "Pregnancy",
+        "Biliary obstructive disorders (hepatic elimination)",
+        "Hypersensitivity to telmisartan",
+        "Concomitant aliskiren in diabetes or CKD"
+      ],
+      "warnings": {
+        "pregnancy": "Category D – fetotoxic; stop if pregnancy detected",
+        "breastfeeding": "Not recommended",
+        "elderly": "No specific dose adjustment; monitor blood pressure",
+        "kidneyDisease": "Use with caution; no dose adjustment needed for mild/moderate CKD"
+      },
+      "monitoring": [
+        "Blood pressure",
+        "Renal function",
+        "Potassium levels",
+        "Digoxin levels (if co-administered)"
+      ],
+      "storage": "Store below 30°C, protect from moisture",
+      "costRange": {
+        "generic": "₹30–₹100 per 30 tablets (India); $8–$20 per 30 tablets (US)",
+        "brand": "₹150–₹400 per 30 tablets (India); $40–$90 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Paracetamol",
+      "genericName": "Paracetamol (Acetaminophen)",
+      "brandNames": ["Calpol", "Crocin", "Dolo", "Tylenol", "Panadol", "Febrex"],
+      "category": "Analgesic / Antipyretic",
+      "class": "Para-aminophenol derivative",
+      "uses": ["Fever", "Mild to moderate pain", "Headache", "Toothache", "Post-vaccination fever", "Osteoarthritis pain"],
+      "dosage": {
+        "adult": {
+          "starting": "500mg every 4–6 hours as needed",
+          "maximum": "4000mg per day (3000mg/day recommended for long-term use)",
+          "typical": "500–1000mg every 4–6 hours; max 4 doses/day"
+        },
+        "elderly": "Maximum 3000mg/day; consider lower doses; hepatic function assessment",
+        "children": "10–15mg/kg every 4–6 hours; max 5 doses/day; syrup/drops for young children"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["Any time", "With water"],
+        "avoid": ["Alcohol", "Exceeding maximum daily dose"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Nausea (rare at therapeutic doses)", "frequency": "Uncommon", "severity": "Mild"},
+          {"name": "Skin rash (rare)", "frequency": "Rare", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "Hepatotoxicity (overdose)", "frequency": "Dose-dependent; severe in overdose", "severity": "Severe/Life-threatening"},
+          {"name": "Acute liver failure", "frequency": "With overdose or chronic alcohol use", "severity": "Severe/Life-threatening"},
+          {"name": "Stevens-Johnson Syndrome", "frequency": "Very rare", "severity": "Severe"},
+          {"name": "Agranulocytosis", "frequency": "Very rare", "severity": "Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Warfarin", "severity": "Moderate", "effect": "High doses (>2g/day regularly) increase anticoagulant effect", "recommendation": "Monitor INR if taking >2g/day regularly"},
+          {"drug": "Alcohol (chronic use)", "severity": "Major", "effect": "Greatly increased hepatotoxicity risk", "recommendation": "Avoid regular use with chronic alcohol consumption; max 2g/day"},
+          {"drug": "Carbamazepine/Phenytoin", "severity": "Moderate", "effect": "Induces metabolism; reduces paracetamol efficacy and increases toxic metabolite", "recommendation": "Monitor and avoid high doses"}
+        ],
+        "foodInteractions": [
+          {"food": "Alcohol", "effect": "Significantly increased liver damage risk; avoid co-administration"},
+          {"food": "Food", "effect": "No significant interaction; may be taken with or without food"}
+        ]
+      },
+      "contraindications": [
+        "Hypersensitivity to paracetamol",
+        "Severe hepatic impairment",
+        "Active liver disease"
+      ],
+      "warnings": {
+        "pregnancy": "Category B – considered safest analgesic/antipyretic in pregnancy; use lowest effective dose",
+        "breastfeeding": "Compatible with breastfeeding; low levels in breast milk",
+        "elderly": "Use with caution; maximum 3g/day; assess hepatic function",
+        "kidneyDisease": "Reduce dosing frequency in severe renal impairment (every 8 hours); avoid with eGFR <10"
+      },
+      "monitoring": [
+        "Liver function tests with prolonged use",
+        "Signs of hepatotoxicity (jaundice, right upper quadrant pain)",
+        "Total daily dose from all sources (combination products)",
+        "Signs of overdose"
+      ],
+      "storage": "Store below 25°C, protect from moisture",
+      "costRange": {
+        "generic": "₹10–₹30 per 30 tablets (India); $2–$8 per 100 tablets (US)",
+        "brand": "₹20–₹60 per 30 tablets (India); $8–$20 per 100 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Ibuprofen",
+      "genericName": "Ibuprofen",
+      "brandNames": ["Brufen", "Advil", "Nurofen", "Combiflam (with paracetamol)", "Ibugesic"],
+      "category": "Analgesic / Anti-inflammatory / Antipyretic",
+      "class": "Non-Selective NSAID",
+      "uses": ["Mild to moderate pain", "Fever", "Inflammation", "Rheumatoid arthritis", "Osteoarthritis", "Dysmenorrhea", "Dental pain"],
+      "dosage": {
+        "adult": {
+          "starting": "200–400mg every 4–6 hours",
+          "maximum": "2400mg per day (prescription); 1200mg/day OTC",
+          "typical": "400mg three times daily with meals"
+        },
+        "elderly": "Use lowest effective dose for shortest duration; increased GI/renal/cardiovascular risk",
+        "children": "5–10mg/kg every 6–8 hours; max 40mg/kg/day; not for infants <3 months"
+      },
+      "timing": {
+        "withFood": true,
+        "emptyStomach": false,
+        "preferredTimes": ["With meals", "With milk to reduce GI irritation"],
+        "avoid": ["Empty stomach", "Bedtime without adequate hydration"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "GI upset/nausea", "frequency": "Common (5–15%)", "severity": "Mild"},
+          {"name": "Heartburn", "frequency": "Common (5–10%)", "severity": "Mild"},
+          {"name": "Dizziness", "frequency": "Common", "severity": "Mild"},
+          {"name": "Fluid retention/edema", "frequency": "Uncommon", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "GI bleeding/ulceration", "frequency": "Uncommon (1–2% per year)", "severity": "Severe"},
+          {"name": "Cardiovascular events (MI, stroke)", "frequency": "Increased with long-term use", "severity": "Severe"},
+          {"name": "Acute renal failure", "frequency": "Uncommon (especially in dehydrated patients)", "severity": "Severe"},
+          {"name": "Severe allergic reactions/anaphylaxis", "frequency": "Rare", "severity": "Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Aspirin", "severity": "Moderate", "effect": "Reduces cardioprotective effect of aspirin; additive GI toxicity", "recommendation": "Take aspirin 30–60 min before ibuprofen; use alternatives if on low-dose aspirin"},
+          {"drug": "Warfarin/Anticoagulants", "severity": "Major", "effect": "Increased bleeding risk", "recommendation": "Avoid combination; use paracetamol for pain"},
+          {"drug": "ACE inhibitors/ARBs", "severity": "Moderate", "effect": "Reduces antihypertensive effect; increased renal failure risk", "recommendation": "Avoid regular use; monitor BP and renal function"},
+          {"drug": "Lithium", "severity": "Moderate", "effect": "Increases lithium levels", "recommendation": "Monitor lithium levels"}
+        ],
+        "foodInteractions": [
+          {"food": "Alcohol", "effect": "Increased GI bleeding risk"},
+          {"food": "Food", "effect": "Take with food to reduce GI irritation"}
+        ]
+      },
+      "contraindications": [
+        "Aspirin/NSAID allergy or asthma triggered by NSAIDs",
+        "Active GI ulcer or bleeding",
+        "Severe heart failure",
+        "Severe renal impairment (eGFR < 30)",
+        "Severe hepatic impairment",
+        "3rd trimester of pregnancy",
+        "Post-CABG surgery"
+      ],
+      "warnings": {
+        "pregnancy": "Category C (1st/2nd trimester); Category D (3rd trimester – contraindicated; premature closure of ductus arteriosus)",
+        "breastfeeding": "Compatible with breastfeeding at recommended doses",
+        "elderly": "Use with caution; GI, renal, and CV risks are higher; consider PPIs",
+        "kidneyDisease": "Contraindicated in severe CKD; use with caution in mild/moderate CKD; monitor renal function"
+      },
+      "monitoring": [
+        "Blood pressure (chronic use)",
+        "Renal function",
+        "Hemoglobin/stool occult blood (GI bleeding)",
+        "Signs of GI symptoms (epigastric pain, melena)",
+        "Liver function tests (if prolonged use)"
+      ],
+      "storage": "Store at room temperature (20–25°C), away from moisture",
+      "costRange": {
+        "generic": "₹10–₹40 per 30 tablets (India); $3–$10 per 30 tablets (US)",
+        "brand": "₹40–₹120 per 30 tablets (India); $8–$25 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Aspirin",
+      "genericName": "Acetylsalicylic Acid",
+      "brandNames": ["Ecosprin", "Aspocid", "Disprin", "Bayer Aspirin", "Loprin"],
+      "category": "Analgesic / Anti-inflammatory / Antiplatelet",
+      "class": "Salicylate / Non-Selective NSAID",
+      "uses": ["Antiplatelet therapy (low dose 75–150mg)", "Acute MI/Stroke prevention", "Pain relief", "Fever", "Rheumatic fever", "Kawasaki disease"],
+      "dosage": {
+        "adult": {
+          "starting": "Antiplatelet: 75–100mg once daily; Analgesic: 300–600mg every 4–6 hours",
+          "maximum": "Antiplatelet: 100–325mg/day; Analgesic: 4000mg/day",
+          "typical": "Antiplatelet: 75–100mg once daily after meals"
+        },
+        "elderly": "75mg/day for cardioprotection; analgesic use requires caution due to GI/bleeding risk",
+        "children": "Not for children <12 years (Reye's syndrome risk); Kawasaki disease: 80–100mg/kg/day (specialist only)"
+      },
+      "timing": {
+        "withFood": true,
+        "emptyStomach": false,
+        "preferredTimes": ["After meals", "After breakfast for antiplatelet use"],
+        "avoid": ["Empty stomach", "Alcohol"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "GI upset/nausea", "frequency": "Common (5–15%)", "severity": "Mild"},
+          {"name": "Heartburn", "frequency": "Common", "severity": "Mild"},
+          {"name": "Increased bleeding tendency", "frequency": "Common (antiplatelet effect)", "severity": "Mild to Moderate"},
+          {"name": "Tinnitus (at high doses)", "frequency": "Common at high doses", "severity": "Mild to Moderate"}
+        ],
+        "serious": [
+          {"name": "GI bleeding/peptic ulcer", "frequency": "Uncommon (1–2% per year)", "severity": "Severe"},
+          {"name": "Reye's syndrome (in children with viral illness)", "frequency": "Rare but serious", "severity": "Severe/Life-threatening"},
+          {"name": "Intracranial hemorrhage", "frequency": "Rare", "severity": "Severe/Life-threatening"},
+          {"name": "Salicylate toxicity", "frequency": "Rare with therapeutic doses", "severity": "Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Warfarin", "severity": "Major", "effect": "Significantly increased bleeding risk", "recommendation": "Avoid combination unless benefits clearly outweigh risks; monitor INR"},
+          {"drug": "Other NSAIDs", "severity": "Major", "effect": "Increased GI bleeding; NSAIDs block aspirin antiplatelet effect", "recommendation": "Avoid regular NSAIDs with aspirin"},
+          {"drug": "Methotrexate", "severity": "Major", "effect": "Reduces methotrexate clearance; risk of toxicity", "recommendation": "Avoid or use with extreme caution and monitoring"},
+          {"drug": "ACE inhibitors", "severity": "Moderate", "effect": "High-dose aspirin may reduce antihypertensive efficacy", "recommendation": "Low-dose aspirin (≤100mg) has minimal impact"}
+        ],
+        "foodInteractions": [
+          {"food": "Alcohol", "effect": "Increased GI bleeding risk"},
+          {"food": "Food", "effect": "Take with food to reduce gastric irritation"}
+        ]
+      },
+      "contraindications": [
+        "Hypersensitivity to aspirin or NSAIDs",
+        "Active peptic ulcer or GI bleeding",
+        "Hemophilia or bleeding disorders",
+        "Children and teenagers with viral infections (Reye's syndrome risk)",
+        "3rd trimester of pregnancy",
+        "Severe renal, hepatic, or cardiac failure"
+      ],
+      "warnings": {
+        "pregnancy": "Category D (3rd trimester – contraindicated); low-dose aspirin used in preeclampsia prevention under medical guidance",
+        "breastfeeding": "Low doses (≤100mg) generally considered safe; high doses not recommended",
+        "elderly": "Increased GI and bleeding risk; consider PPI co-prescription",
+        "kidneyDisease": "Use with caution; avoid in severe renal impairment; increases risk of salt/water retention"
+      },
+      "monitoring": [
+        "Signs of GI bleeding (stool color, abdominal pain)",
+        "CBC periodically with chronic use",
+        "INR if on warfarin",
+        "Renal function in at-risk patients",
+        "Hearing (tinnitus at high doses)"
+      ],
+      "storage": "Store at room temperature (15–30°C), away from moisture and heat",
+      "costRange": {
+        "generic": "₹10–₹40 per 30 tablets (India); $2–$10 per 100 tablets (US)",
+        "brand": "₹30–₹100 per 30 tablets (India); $8–$20 per 100 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Diclofenac",
+      "genericName": "Diclofenac Sodium / Diclofenac Potassium",
+      "brandNames": ["Voltaren", "Voveran", "Dicloflam", "Reactine", "Dicloran"],
+      "category": "Analgesic / Anti-inflammatory",
+      "class": "Non-Selective NSAID",
+      "uses": ["Rheumatoid arthritis", "Osteoarthritis", "Ankylosing spondylitis", "Acute gout", "Postoperative pain", "Dysmenorrhea", "Musculoskeletal pain"],
+      "dosage": {
+        "adult": {
+          "starting": "50mg two to three times daily",
+          "maximum": "150mg per day",
+          "typical": "75mg twice daily or 50mg three times daily with meals"
+        },
+        "elderly": "Use minimum effective dose; 50–100mg/day; increased GI/CV risk",
+        "children": "1mg/kg/day in divided doses; specialist use only"
+      },
+      "timing": {
+        "withFood": true,
+        "emptyStomach": false,
+        "preferredTimes": ["With meals", "With a glass of milk"],
+        "avoid": ["Empty stomach", "Alcohol"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "GI upset/nausea", "frequency": "Common (10–20%)", "severity": "Mild"},
+          {"name": "Headache", "frequency": "Common (5%)", "severity": "Mild"},
+          {"name": "Dizziness", "frequency": "Common", "severity": "Mild"},
+          {"name": "Elevated liver enzymes", "frequency": "Common (up to 15%)", "severity": "Mild to Moderate"}
+        ],
+        "serious": [
+          {"name": "GI bleeding/perforation", "frequency": "Uncommon (1%/year)", "severity": "Severe"},
+          {"name": "Hepatotoxicity (liver failure)", "frequency": "Rare (higher than other NSAIDs)", "severity": "Severe"},
+          {"name": "Cardiovascular events (MI, stroke)", "frequency": "Increased with long-term use", "severity": "Severe"},
+          {"name": "Acute renal failure", "frequency": "Uncommon", "severity": "Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Warfarin", "severity": "Major", "effect": "Increased bleeding risk", "recommendation": "Avoid combination"},
+          {"drug": "Lithium", "severity": "Moderate", "effect": "Increases lithium levels by reducing renal clearance", "recommendation": "Monitor lithium levels"},
+          {"drug": "Cyclosporine", "severity": "Moderate", "effect": "Increased nephrotoxicity", "recommendation": "Monitor renal function"},
+          {"drug": "Methotrexate", "severity": "Major", "effect": "Reduces methotrexate elimination; toxicity risk", "recommendation": "Avoid or use only with close monitoring"}
+        ],
+        "foodInteractions": [
+          {"food": "Alcohol", "effect": "Increased GI bleeding and hepatotoxicity risk"},
+          {"food": "Food", "effect": "Take with food to minimize GI side effects"}
+        ]
+      },
+      "contraindications": [
+        "Active peptic ulcer/GI bleeding",
+        "Severe heart failure",
+        "Severe renal or hepatic impairment",
+        "Hypersensitivity to diclofenac or NSAIDs",
+        "3rd trimester of pregnancy",
+        "Post-CABG surgery"
+      ],
+      "warnings": {
+        "pregnancy": "Category C (1st/2nd trimester); Category D (3rd trimester)",
+        "breastfeeding": "Small amounts in breast milk; short-term use considered acceptable",
+        "elderly": "Use with extreme caution; increased GI, CV, and renal risks; add PPI",
+        "kidneyDisease": "Avoid in moderate to severe CKD; use with caution in mild CKD"
+      },
+      "monitoring": [
+        "Liver function tests (at 4–8 weeks, then periodically)",
+        "Renal function",
+        "GI symptoms",
+        "Blood pressure",
+        "CBC for chronic use"
+      ],
+      "storage": "Store at room temperature (15–30°C)",
+      "costRange": {
+        "generic": "₹15–₹60 per 30 tablets (India); $5–$15 per 30 tablets (US)",
+        "brand": "₹60–₹200 per 30 tablets (India); $20–$60 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Naproxen",
+      "genericName": "Naproxen Sodium",
+      "brandNames": ["Naprosyn", "Aleve", "Naprex", "Flanax"],
+      "category": "Analgesic / Anti-inflammatory",
+      "class": "Non-Selective NSAID",
+      "uses": ["Arthritis (rheumatoid, osteoarthritis)", "Acute gout", "Dysmenorrhea", "Musculoskeletal pain", "Fever (short-term)"],
+      "dosage": {
+        "adult": {
+          "starting": "250–500mg twice daily",
+          "maximum": "1250mg per day (initial day); 1000mg/day thereafter",
+          "typical": "500mg twice daily with food"
+        },
+        "elderly": "Use lower doses (250mg twice daily); increased GI and renal risk",
+        "children": "Juvenile arthritis: 5mg/kg twice daily; OTC use not recommended <12 years"
+      },
+      "timing": {
+        "withFood": true,
+        "emptyStomach": false,
+        "preferredTimes": ["With meals", "Morning and evening with food"],
+        "avoid": ["Empty stomach", "Alcohol"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "GI upset", "frequency": "Common", "severity": "Mild"},
+          {"name": "Headache", "frequency": "Common", "severity": "Mild"},
+          {"name": "Dizziness", "frequency": "Common", "severity": "Mild"},
+          {"name": "Fluid retention", "frequency": "Uncommon", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "GI bleeding/ulcers", "frequency": "Uncommon", "severity": "Severe"},
+          {"name": "Cardiovascular events", "frequency": "Increased with long-term use (lower risk than some NSAIDs)", "severity": "Severe"},
+          {"name": "Acute renal failure", "frequency": "Uncommon", "severity": "Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Warfarin", "severity": "Major", "effect": "Increased bleeding risk", "recommendation": "Avoid or monitor INR closely"},
+          {"drug": "Aspirin", "severity": "Moderate", "effect": "Increased GI side effects; naproxen may block aspirin antiplatelet action", "recommendation": "Take aspirin 30 min before naproxen if both required"},
+          {"drug": "Lithium", "severity": "Moderate", "effect": "Increases lithium toxicity", "recommendation": "Monitor lithium levels"}
+        ],
+        "foodInteractions": [
+          {"food": "Alcohol", "effect": "Increased GI bleeding risk"},
+          {"food": "Food", "effect": "Take with food to reduce stomach irritation"}
+        ]
+      },
+      "contraindications": [
+        "Aspirin/NSAID allergy",
+        "Active GI ulcer/bleeding",
+        "Severe heart failure",
+        "Severe renal or hepatic impairment",
+        "3rd trimester of pregnancy"
+      ],
+      "warnings": {
+        "pregnancy": "Category C (1st/2nd trimester); contraindicated in 3rd trimester",
+        "breastfeeding": "Small amounts in breast milk; use with caution",
+        "elderly": "Use lowest dose; add PPI; monitor renal function",
+        "kidneyDisease": "Use with caution in mild/moderate CKD; avoid in severe CKD"
+      },
+      "monitoring": [
+        "GI symptoms",
+        "Renal function",
+        "Blood pressure",
+        "CBC for long-term use"
+      ],
+      "storage": "Store at 15–30°C, protect from moisture",
+      "costRange": {
+        "generic": "₹30–₹100 per 30 tablets (India); $4–$15 per 30 tablets (US)",
+        "brand": "₹80–₹250 per 30 tablets (India); $10–$30 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Amoxicillin",
+      "genericName": "Amoxicillin Trihydrate",
+      "brandNames": ["Amoxil", "Novamox", "Moxikind", "Wymox", "Trimox"],
+      "category": "Antibiotic",
+      "class": "Aminopenicillin (Beta-lactam)",
+      "uses": ["Upper respiratory infections", "Tonsillitis", "Otitis media", "Sinusitis", "Urinary tract infections", "H. pylori eradication (in combination)", "Dental infections", "Skin/soft tissue infections"],
+      "dosage": {
+        "adult": {
+          "starting": "250–500mg every 8 hours or 500–875mg every 12 hours",
+          "maximum": "3000mg per day (500mg TID or 875mg BID standard)",
+          "typical": "500mg three times daily for 5–7 days"
+        },
+        "elderly": "No specific dose adjustment; reduce if severe renal impairment",
+        "children": "25–50mg/kg/day in divided doses every 8–12 hours; max 90mg/kg/day for otitis media"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["Any time", "Can be taken with food to reduce GI upset"],
+        "avoid": ["Do not skip doses", "Stopping course early"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Diarrhea", "frequency": "Common (9%)", "severity": "Mild"},
+          {"name": "Nausea", "frequency": "Common (5%)", "severity": "Mild"},
+          {"name": "Skin rash", "frequency": "Common (5%)", "severity": "Mild to Moderate"},
+          {"name": "Headache", "frequency": "Uncommon", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "Anaphylaxis/Severe allergy", "frequency": "Rare (0.04–0.11%)", "severity": "Severe/Life-threatening"},
+          {"name": "C. difficile colitis", "frequency": "Uncommon", "severity": "Moderate to Severe"},
+          {"name": "Severe skin reactions (SJS/TEN)", "frequency": "Very rare", "severity": "Severe"},
+          {"name": "Hepatotoxicity", "frequency": "Very rare", "severity": "Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Warfarin", "severity": "Moderate", "effect": "May increase INR/anticoagulant effect", "recommendation": "Monitor INR during and after antibiotic course"},
+          {"drug": "Oral contraceptives", "severity": "Minor", "effect": "Theoretical reduction in efficacy (low evidence)", "recommendation": "Use additional contraception during treatment"},
+          {"drug": "Allopurinol", "severity": "Moderate", "effect": "Significantly increases risk of skin rash", "recommendation": "Use alternative antibiotic if possible"},
+          {"drug": "Methotrexate", "severity": "Moderate", "effect": "Reduces methotrexate excretion", "recommendation": "Monitor for methotrexate toxicity"}
+        ],
+        "foodInteractions": [
+          {"food": "Food", "effect": "Can be taken with food; reduces GI upset without significantly affecting absorption"},
+          {"food": "Milk", "effect": "No significant interaction"}
+        ]
+      },
+      "contraindications": [
+        "Hypersensitivity to penicillins",
+        "Previous anaphylaxis to cephalosporins (cross-reactivity possible)",
+        "Infectious mononucleosis (causes widespread rash)"
+      ],
+      "warnings": {
+        "pregnancy": "Category B – generally considered safe; use when benefits outweigh risks",
+        "breastfeeding": "Compatible with breastfeeding; small amounts in breast milk",
+        "elderly": "No specific dose adjustment unless renal impairment",
+        "kidneyDisease": "Dose reduction required in severe CKD (eGFR <30); extended interval dosing"
+      },
+      "monitoring": [
+        "Signs of allergic reaction during and after first doses",
+        "Signs of C. difficile (diarrhea after antibiotic use)",
+        "Culture and sensitivity in complicated or recurrent infections",
+        "Renal function in prolonged use"
+      ],
+      "storage": "Store capsules at room temperature; oral suspension refrigerated (valid 14 days) or at room temperature (valid 7 days per manufacturer)",
+      "costRange": {
+        "generic": "₹30–₹100 per 21 capsules (India); $4–$15 per 30 capsules (US)",
+        "brand": "₹80–₹250 per 21 capsules (India); $15–$40 per 30 capsules (US)"
+      }
+    },
+    {
+      "medicineName": "Azithromycin",
+      "genericName": "Azithromycin Dihydrate",
+      "brandNames": ["Zithromax", "Azee", "Azivent", "Zycin", "Azithral"],
+      "category": "Antibiotic",
+      "class": "Macrolide",
+      "uses": ["Community-acquired pneumonia", "Pharyngitis/Tonsillitis (penicillin alternative)", "Sinusitis", "Skin/soft tissue infections", "Chlamydia", "Non-gonococcal urethritis", "Traveler's diarrhea", "Bronchitis exacerbation in COPD"],
+      "dosage": {
+        "adult": {
+          "starting": "500mg on day 1, then 250mg on days 2–5",
+          "maximum": "500mg/day",
+          "typical": "Z-pack: 500mg day 1, 250mg days 2–5; Single dose 1g for chlamydia"
+        },
+        "elderly": "Same dosing; monitor cardiac function (QT prolongation risk)",
+        "children": "10mg/kg on day 1, then 5mg/kg days 2–5; max 500mg/day"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["Once daily", "At same time each day"],
+        "avoid": ["Antacids containing aluminum or magnesium (take 1 hour apart)"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Diarrhea/loose stools", "frequency": "Very common (10–20%)", "severity": "Mild"},
+          {"name": "Nausea", "frequency": "Common (8%)", "severity": "Mild"},
+          {"name": "Abdominal pain", "frequency": "Common (5%)", "severity": "Mild"},
+          {"name": "Headache", "frequency": "Common (3%)", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "QT prolongation/Torsades de Pointes", "frequency": "Rare but important", "severity": "Severe/Life-threatening"},
+          {"name": "Severe allergic reactions/Anaphylaxis", "frequency": "Rare", "severity": "Severe"},
+          {"name": "Hepatotoxicity", "frequency": "Rare", "severity": "Moderate to Severe"},
+          {"name": "C. difficile colitis", "frequency": "Uncommon", "severity": "Moderate to Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "QT-prolonging drugs (amiodarone, haloperidol, clarithromycin)", "severity": "Major", "effect": "Additive QT prolongation; risk of fatal arrhythmia", "recommendation": "Avoid combination; if unavoidable, ECG monitoring required"},
+          {"drug": "Warfarin", "severity": "Moderate", "effect": "May increase INR", "recommendation": "Monitor INR"},
+          {"drug": "Digoxin", "severity": "Moderate", "effect": "Increases digoxin levels", "recommendation": "Monitor digoxin levels"},
+          {"drug": "Antacids (Mg/Al)", "severity": "Minor", "effect": "Reduce peak azithromycin concentration by ~24%", "recommendation": "Take azithromycin 1 hour before or 2 hours after antacids"}
+        ],
+        "foodInteractions": [
+          {"food": "Food", "effect": "No significant effect on absorption; can take with food"},
+          {"food": "Alcohol", "effect": "Increased GI side effects; avoid during antibiotic course"}
+        ]
+      },
+      "contraindications": [
+        "Hypersensitivity to azithromycin or macrolides",
+        "Pre-existing QT prolongation",
+        "Hepatic failure",
+        "Concurrent use of other QT-prolonging drugs (relative)"
+      ],
+      "warnings": {
+        "pregnancy": "Category B – generally used when benefits outweigh risks",
+        "breastfeeding": "Compatible; appears in breast milk in small amounts",
+        "elderly": "Monitor for cardiac arrhythmias (QT prolongation)",
+        "kidneyDisease": "No dose adjustment for mild/moderate renal impairment; use with caution in severe renal failure"
+      },
+      "monitoring": [
+        "ECG in high-risk patients (QT interval)",
+        "Signs of allergic reaction",
+        "Liver function tests (prolonged use)",
+        "Treatment response (culture if inadequate response)"
+      ],
+      "storage": "Store tablets/capsules below 30°C; oral suspension stable 5 days at room temperature or 10 days refrigerated",
+      "costRange": {
+        "generic": "₹50–₹150 per 5 tablets (India); $5–$20 per Z-pack (US)",
+        "brand": "₹200–₹500 per 5 tablets (India); $30–$70 per Z-pack (US)"
+      }
+    },
+    {
+      "medicineName": "Ciprofloxacin",
+      "genericName": "Ciprofloxacin Hydrochloride",
+      "brandNames": ["Cipro", "Ciplox", "Cifran", "Cipromi", "Quintor"],
+      "category": "Antibiotic",
+      "class": "Fluoroquinolone",
+      "uses": ["Urinary tract infections", "Respiratory tract infections", "GI infections", "Typhoid fever", "Prostatitis", "Bone/joint infections", "Anthrax prophylaxis/treatment"],
+      "dosage": {
+        "adult": {
+          "starting": "250–500mg every 12 hours (oral)",
+          "maximum": "1500mg per day",
+          "typical": "500mg twice daily for 7–14 days depending on indication"
+        },
+        "elderly": "Same dosing; monitor for CNS effects and tendon issues",
+        "children": "Not generally recommended (<18 years); exceptions: anthrax, UTI (specialist use): 10–20mg/kg twice daily; max 1g/day"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["Morning and evening", "Can be taken with meals to reduce GI upset"],
+        "avoid": ["Dairy products (2 hrs)", "Antacids/iron/calcium supplements (2 hrs)", "Prolonged sun exposure (photosensitivity)"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Nausea", "frequency": "Common (5%)", "severity": "Mild"},
+          {"name": "Diarrhea", "frequency": "Common (5%)", "severity": "Mild"},
+          {"name": "Headache", "frequency": "Common", "severity": "Mild"},
+          {"name": "Dizziness", "frequency": "Common", "severity": "Mild"},
+          {"name": "Photosensitivity", "frequency": "Uncommon", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "Tendinitis/Tendon rupture (especially Achilles)", "frequency": "Uncommon (increased in elderly, on steroids)", "severity": "Severe"},
+          {"name": "QT prolongation", "frequency": "Uncommon", "severity": "Severe"},
+          {"name": "Peripheral neuropathy", "frequency": "Uncommon", "severity": "Moderate to Severe"},
+          {"name": "C. difficile colitis", "frequency": "Uncommon", "severity": "Moderate to Severe"},
+          {"name": "CNS effects (seizures, psychosis)", "frequency": "Rare", "severity": "Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Theophylline", "severity": "Major", "effect": "Significantly increases theophylline levels; toxicity risk", "recommendation": "Reduce theophylline dose and monitor levels"},
+          {"drug": "Warfarin", "severity": "Moderate", "effect": "Increases anticoagulant effect", "recommendation": "Monitor INR"},
+          {"drug": "Antacids/Iron/Calcium/Zinc", "severity": "Moderate", "effect": "Reduces ciprofloxacin absorption by 50–90%", "recommendation": "Separate administration by 2 hours"},
+          {"drug": "NSAIDs", "severity": "Minor", "effect": "Increased risk of CNS stimulation and seizures", "recommendation": "Use with caution in seizure-prone patients"},
+          {"drug": "QT-prolonging drugs", "severity": "Major", "effect": "Additive QT prolongation", "recommendation": "Avoid combination"}
+        ],
+        "foodInteractions": [
+          {"food": "Dairy products/Calcium-fortified foods", "effect": "Reduced absorption; take 2 hours before or 6 hours after"},
+          {"food": "Caffeine", "effect": "Ciprofloxacin inhibits caffeine metabolism; increased caffeine effects"}
+        ]
+      },
+      "contraindications": [
+        "Hypersensitivity to ciprofloxacin or other quinolones",
+        "Children and adolescents < 18 years (except specific indications)",
+        "Concurrent tizanidine use",
+        "Pre-existing QT prolongation (relative)"
+      ],
+      "warnings": {
+        "pregnancy": "Category C – generally avoided; use only if no safer alternative",
+        "breastfeeding": "Avoid; present in breast milk; articular cartilage concern in infants",
+        "elderly": "Increased tendon rupture risk; CNS side effects more common; monitor",
+        "kidneyDisease": "Dose reduction required: eGFR 30–50: 250–500mg every 12h; eGFR <30: 250–500mg every 18h"
+      },
+      "monitoring": [
+        "Renal function",
+        "Signs of tendon pain/rupture",
+        "CNS effects (dizziness, confusion)",
+        "Culture and sensitivity for infections",
+        "QT interval (in high-risk patients)"
+      ],
+      "storage": "Store at 15–30°C, protect from light",
+      "costRange": {
+        "generic": "₹30–₹100 per 10 tablets (India); $5–$20 per 20 tablets (US)",
+        "brand": "₹100–₹300 per 10 tablets (India); $20–$60 per 20 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Doxycycline",
+      "genericName": "Doxycycline Hyclate / Monohydrate",
+      "brandNames": ["Vibramycin", "Doxt", "Doxy-1", "Biodoxi", "Tetradox"],
+      "category": "Antibiotic",
+      "class": "Tetracycline",
+      "uses": ["Acne", "Rosacea", "Chlamydia", "Syphilis", "Lyme disease", "Malaria prophylaxis/treatment", "Community-acquired pneumonia (atypicals)", "Rickettsial infections", "Periodontitis"],
+      "dosage": {
+        "adult": {
+          "starting": "100mg twice daily on day 1, then 100mg once daily",
+          "maximum": "200mg per day",
+          "typical": "100mg twice daily for most infections; 50–100mg once daily for acne"
+        },
+        "elderly": "Standard dosing; no specific adjustment needed",
+        "children": "Not recommended < 8 years (tooth discoloration); ≥8 years: 2.2mg/kg twice daily; max 100mg/dose"
+      },
+      "timing": {
+        "withFood": true,
+        "emptyStomach": false,
+        "preferredTimes": ["With food/milk to reduce GI irritation", "Evening dose to allow upright posture for 30–60 min"],
+        "avoid": ["Lying down within 30 minutes of dose", "Dairy products and antacids (2 hour separation)", "Sun exposure (photosensitivity)"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Nausea/vomiting", "frequency": "Common (5–10%)", "severity": "Mild"},
+          {"name": "Photosensitivity", "frequency": "Common", "severity": "Mild to Moderate"},
+          {"name": "Esophageal irritation/ulceration", "frequency": "Common if not taken properly", "severity": "Mild to Moderate"},
+          {"name": "GI upset", "frequency": "Common", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "Permanent tooth discoloration in children <8 years", "frequency": "Common if given to young children", "severity": "Moderate (cosmetic but permanent)"},
+          {"name": "Pseudotumor cerebri (intracranial hypertension)", "frequency": "Rare", "severity": "Severe"},
+          {"name": "C. difficile colitis", "frequency": "Uncommon", "severity": "Moderate to Severe"},
+          {"name": "Severe skin reactions (SJS)", "frequency": "Very rare", "severity": "Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Antacids/Iron/Calcium/Magnesium", "severity": "Moderate", "effect": "Significantly reduces doxycycline absorption", "recommendation": "Separate by 2–3 hours"},
+          {"drug": "Warfarin", "severity": "Moderate", "effect": "Increases anticoagulant effect", "recommendation": "Monitor INR"},
+          {"drug": "Oral contraceptives", "severity": "Minor", "effect": "Theoretical reduction in contraceptive efficacy", "recommendation": "Use additional contraception"},
+          {"drug": "Isotretinoin", "severity": "Major", "effect": "Additive pseudotumor cerebri risk", "recommendation": "Avoid combination"}
+        ],
+        "foodInteractions": [
+          {"food": "Dairy products", "effect": "Reduces absorption; separate by 2 hours (monohydrate less affected)"},
+          {"food": "Food (in general)", "effect": "Can take with food to reduce nausea"}
+        ]
+      },
+      "contraindications": [
+        "Hypersensitivity to tetracyclines",
+        "Children < 8 years",
+        "Pregnancy (2nd and 3rd trimester particularly; Category D)",
+        "Severe hepatic impairment"
+      ],
+      "warnings": {
+        "pregnancy": "Category D – associated with fetal tooth/bone effects; avoid especially in 2nd and 3rd trimester",
+        "breastfeeding": "Not recommended; present in breast milk; risk of tooth discoloration in infant",
+        "elderly": "Standard dosing; be mindful of photosensitivity and esophageal issues",
+        "kidneyDisease": "No dose adjustment needed; preferred tetracycline in renal impairment (not renally eliminated)"
+      },
+      "monitoring": [
+        "Treatment response",
+        "Signs of GI side effects",
+        "Sun protection and photosensitivity",
+        "Liver function tests (prolonged use)",
+        "Complete blood count (long-term use)"
+      ],
+      "storage": "Store at room temperature (15–25°C), away from light and moisture",
+      "costRange": {
+        "generic": "₹40–₹120 per 10 capsules (India); $5–$25 per 30 tablets (US)",
+        "brand": "₹150–₹400 per 10 capsules (India); $30–$80 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Cephalexin",
+      "genericName": "Cephalexin Monohydrate",
+      "brandNames": ["Keflex", "Sporidex", "Cephaxin", "Ibilex", "Cefalin"],
+      "category": "Antibiotic",
+      "class": "First-Generation Cephalosporin",
+      "uses": ["Skin/soft tissue infections", "Respiratory tract infections", "Urinary tract infections", "Bone infections (mild)", "Otitis media", "Dental prophylaxis"],
+      "dosage": {
+        "adult": {
+          "starting": "250–500mg every 6 hours",
+          "maximum": "4000mg per day",
+          "typical": "500mg four times daily for 7–10 days"
+        },
+        "elderly": "Standard dosing; reduce if renal impairment",
+        "children": "25–50mg/kg/day in divided doses every 6–12 hours; max 100mg/kg/day for severe infections"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["Can be taken with or without food", "Every 6 hours at regular intervals"],
+        "avoid": ["Missing doses", "Stopping course early"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Diarrhea", "frequency": "Common (5%)", "severity": "Mild"},
+          {"name": "Nausea", "frequency": "Common", "severity": "Mild"},
+          {"name": "Abdominal pain", "frequency": "Common", "severity": "Mild"},
+          {"name": "Skin rash", "frequency": "Uncommon", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "Allergic reaction/Anaphylaxis", "frequency": "Rare (1–3% cross-reactivity with penicillin allergy)", "severity": "Severe"},
+          {"name": "C. difficile colitis", "frequency": "Uncommon", "severity": "Moderate to Severe"},
+          {"name": "Interstitial nephritis", "frequency": "Very rare", "severity": "Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Warfarin", "severity": "Moderate", "effect": "May increase INR", "recommendation": "Monitor INR"},
+          {"drug": "Probenecid", "severity": "Minor", "effect": "Increases and prolongs cephalexin levels", "recommendation": "May be used therapeutically but monitor for increased effects"},
+          {"drug": "Metformin", "severity": "Minor", "effect": "Slight increase in metformin levels", "recommendation": "Monitor blood glucose"}
+        ],
+        "foodInteractions": [
+          {"food": "Food", "effect": "No significant effect; may reduce GI upset"}
+        ]
+      },
+      "contraindications": [
+        "Hypersensitivity to cephalosporins",
+        "Severe penicillin allergy (risk of cross-reactivity; assess carefully)",
+        "History of cephalosporin-induced hemolytic anemia"
+      ],
+      "warnings": {
+        "pregnancy": "Category B – generally safe; used for infections in pregnancy",
+        "breastfeeding": "Compatible; present in breast milk in small amounts",
+        "elderly": "Dose reduction needed if renal impairment",
+        "kidneyDisease": "Dose reduction required: eGFR 10–50: 500mg every 8–12h; eGFR <10: 250–500mg every 12–24h"
+      },
+      "monitoring": [
+        "Signs of allergic reaction",
+        "Treatment response",
+        "Renal function (prolonged use)",
+        "C. difficile diarrhea"
+      ],
+      "storage": "Store capsules at room temperature; reconstituted suspension refrigerated for 14 days",
+      "costRange": {
+        "generic": "₹40–₹120 per 20 capsules (India); $5–$20 per 30 capsules (US)",
+        "brand": "₹100–₹350 per 20 capsules (India); $20–$60 per 30 capsules (US)"
+      }
+    },
+    {
+      "medicineName": "Atorvastatin",
+      "genericName": "Atorvastatin Calcium",
+      "brandNames": ["Lipitor", "Atorva", "Aztor", "Storvas", "Novastat"],
+      "category": "Cardiac / Lipid-lowering",
+      "class": "HMG-CoA Reductase Inhibitor (Statin)",
+      "uses": ["Hypercholesterolemia", "Hypertriglyceridemia", "Prevention of cardiovascular events (MI, stroke)", "Familial hypercholesterolemia"],
+      "dosage": {
+        "adult": {
+          "starting": "10–20mg once daily",
+          "maximum": "80mg once daily",
+          "typical": "20–40mg once daily"
+        },
+        "elderly": "Start at 10mg; titrate carefully; higher risk of myopathy",
+        "children": "Children 10–17 years (heterozygous FH): 10–20mg/day"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["Any time of day", "Evening/night preferred (liver synthesizes cholesterol at night)"],
+        "avoid": ["Grapefruit juice in large quantities"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Myalgia (muscle aches)", "frequency": "Common (5–10%)", "severity": "Mild"},
+          {"name": "Headache", "frequency": "Common (5%)", "severity": "Mild"},
+          {"name": "Nasopharyngitis", "frequency": "Common", "severity": "Mild"},
+          {"name": "GI upset/diarrhea", "frequency": "Common", "severity": "Mild"},
+          {"name": "Elevated liver enzymes", "frequency": "Uncommon (1–3%)", "severity": "Mild to Moderate"}
+        ],
+        "serious": [
+          {"name": "Rhabdomyolysis", "frequency": "Rare (<0.1%)", "severity": "Severe/Life-threatening"},
+          {"name": "Myopathy/Severe myositis", "frequency": "Rare (increased with drug interactions)", "severity": "Severe"},
+          {"name": "Hepatitis/Liver failure", "frequency": "Very rare", "severity": "Severe"},
+          {"name": "New-onset diabetes mellitus", "frequency": "Small increased risk (~9%)", "severity": "Moderate"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Cyclosporine", "severity": "Major", "effect": "Dramatically increases atorvastatin levels (8–15 fold); severe myopathy risk", "recommendation": "Avoid; if necessary, limit atorvastatin to 10mg/day"},
+          {"drug": "Gemfibrozil", "severity": "Major", "effect": "Significantly increased myopathy/rhabdomyolysis risk", "recommendation": "Avoid combination; use fenofibrate instead"},
+          {"drug": "Clarithromycin/Erythromycin", "severity": "Major", "effect": "Increases atorvastatin levels significantly", "recommendation": "Suspend statin during short antibiotic course or use alternative antibiotic"},
+          {"drug": "Amlodipine", "severity": "Moderate", "effect": "Increases atorvastatin exposure ~18%; myopathy risk", "recommendation": "Limit atorvastatin to 40mg/day"},
+          {"drug": "Niacin (high dose)", "severity": "Moderate", "effect": "Increased myopathy risk", "recommendation": "Use with caution; monitor for muscle symptoms"}
+        ],
+        "foodInteractions": [
+          {"food": "Grapefruit/Grapefruit juice (large amounts)", "effect": "Increases atorvastatin levels; increased side effect risk"},
+          {"food": "Food", "effect": "No significant interaction; can take with or without food"}
+        ]
+      },
+      "contraindications": [
+        "Active liver disease or unexplained persistent elevated liver transaminases",
+        "Pregnancy",
+        "Breastfeeding",
+        "Hypersensitivity to atorvastatin"
+      ],
+      "warnings": {
+        "pregnancy": "Category X – absolutely contraindicated; fetotoxic; stop immediately if pregnancy detected",
+        "breastfeeding": "Contraindicated; excreted in breast milk",
+        "elderly": "Use with caution; myopathy risk higher; start at lower doses",
+        "kidneyDisease": "No specific dose adjustment needed; use with caution in severe renal impairment"
+      },
+      "monitoring": [
+        "Lipid panel (baseline and every 4–12 weeks initially, then annually)",
+        "Liver function tests (at baseline and if symptomatic)",
+        "CK levels (if muscle pain/weakness)",
+        "Blood glucose/HbA1c (diabetes risk)",
+        "Muscle symptoms (pain, weakness, cramps)"
+      ],
+      "storage": "Store at 20–25°C, away from moisture and light",
+      "costRange": {
+        "generic": "₹20–₹80 per 30 tablets (India); $4–$15 per 30 tablets (US)",
+        "brand": "₹150–₹500 per 30 tablets (India); $50–$150 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Clopidogrel",
+      "genericName": "Clopidogrel Bisulfate",
+      "brandNames": ["Plavix", "Clopilet", "Deplatt", "Clopivas", "Clodrel"],
+      "category": "Antiplatelet / Cardiac",
+      "class": "P2Y12 ADP Receptor Blocker (Thienopyridine)",
+      "uses": ["Acute coronary syndrome (NSTEMI, UA)", "Post-stent antiplatelet therapy (dual antiplatelet with aspirin)", "Stroke/TIA prevention", "Peripheral arterial disease"],
+      "dosage": {
+        "adult": {
+          "starting": "Loading dose: 300–600mg; then maintenance 75mg once daily",
+          "maximum": "75mg/day (maintenance); 600mg loading dose",
+          "typical": "75mg once daily (usually with aspirin 75–100mg)"
+        },
+        "elderly": "Standard 75mg/day; increased bleeding risk in elderly",
+        "children": "Not established for children"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["Any consistent time daily", "Morning preferred"],
+        "avoid": ["Stopping suddenly (risk of thrombosis)", "Elective surgery within 5–7 days (hold if safe to do so)"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Bruising", "frequency": "Common (5–10%)", "severity": "Mild"},
+          {"name": "GI upset/dyspepsia", "frequency": "Common (5%)", "severity": "Mild"},
+          {"name": "Headache", "frequency": "Common", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "Major bleeding (GI, intracranial)", "frequency": "Uncommon (1–2%/year)", "severity": "Severe/Life-threatening"},
+          {"name": "Thrombotic Thrombocytopenic Purpura (TTP)", "frequency": "Very rare (<1:200,000)", "severity": "Severe/Life-threatening"},
+          {"name": "Neutropenia/Agranulocytosis", "frequency": "Very rare", "severity": "Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "PPIs (especially Omeprazole/Esomeprazole)", "severity": "Moderate", "effect": "Reduces clopidogrel's active metabolite by ~47%; reduced antiplatelet effect", "recommendation": "Use pantoprazole (less CYP2C19 inhibition) if PPI needed"},
+          {"drug": "Warfarin", "severity": "Major", "effect": "Significantly increased bleeding risk", "recommendation": "Use triple therapy (aspirin+clopidogrel+warfarin) only when absolutely indicated; minimize duration"},
+          {"drug": "NSAIDs", "severity": "Moderate", "effect": "Increased bleeding risk", "recommendation": "Avoid regular NSAID use"},
+          {"drug": "Aspirin", "severity": "Moderate (intentional combination)", "effect": "Additive antiplatelet effect; intended dual antiplatelet therapy but increases bleeding", "recommendation": "Dual antiplatelet therapy used intentionally post-ACS/stent"}
+        ],
+        "foodInteractions": [
+          {"food": "Food", "effect": "No significant interaction; can be taken with or without food"},
+          {"food": "Grapefruit", "effect": "May reduce clopidogrel activation via CYP3A4/CYP2C19 inhibition"}
+        ]
+      },
+      "contraindications": [
+        "Active pathological bleeding (e.g., peptic ulcer, intracranial hemorrhage)",
+        "Hypersensitivity to clopidogrel",
+        "Severe hepatic impairment"
+      ],
+      "warnings": {
+        "pregnancy": "Category B – use only if clearly necessary",
+        "breastfeeding": "Avoid; unknown if excreted in breast milk",
+        "elderly": "Standard dosing; increased bleeding risk; assess benefit-risk",
+        "kidneyDisease": "No dose adjustment needed; use with caution due to increased bleeding risk"
+      },
+      "monitoring": [
+        "Signs of bleeding (unusual bruising, blood in stool/urine)",
+        "CBC (signs of TTP: low platelets, hemolytic anemia)",
+        "Renal and liver function",
+        "Platelet function testing in high-risk patients or poor responders"
+      ],
+      "storage": "Store at 25°C; excursions to 15–30°C permitted; protect from moisture",
+      "costRange": {
+        "generic": "₹30–₹120 per 30 tablets (India); $5–$20 per 30 tablets (US)",
+        "brand": "₹200–₹600 per 30 tablets (India); $50–$150 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Metoprolol",
+      "genericName": "Metoprolol Tartrate / Succinate",
+      "brandNames": ["Lopressor", "Toprol-XL", "Metolar", "Metpure", "Seloken"],
+      "category": "Antihypertensive / Cardiac",
+      "class": "Beta-1 Selective Adrenergic Blocker",
+      "uses": ["Hypertension", "Angina pectoris", "Heart failure (succinate formulation)", "Post-MI cardioprotection", "Supraventricular arrhythmias", "Migraine prophylaxis", "Hyperthyroidism (adjunct)"],
+      "dosage": {
+        "adult": {
+          "starting": "Tartrate: 25–50mg twice daily; Succinate (XL): 25–50mg once daily",
+          "maximum": "400mg/day",
+          "typical": "Tartrate: 50–100mg twice daily; Succinate: 100–200mg once daily"
+        },
+        "elderly": "Start at 25mg; increased sensitivity; titrate slowly",
+        "children": "1–8mg/kg/day (tartrate) in divided doses; max 200mg/day"
+      },
+      "timing": {
+        "withFood": true,
+        "emptyStomach": false,
+        "preferredTimes": ["With or immediately after meals (tartrate)", "Same time daily (succinate)"],
+        "avoid": ["Abrupt discontinuation (taper over 1–2 weeks)"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Fatigue", "frequency": "Common (10%)", "severity": "Mild"},
+          {"name": "Bradycardia", "frequency": "Common", "severity": "Mild to Moderate"},
+          {"name": "Dizziness", "frequency": "Common", "severity": "Mild"},
+          {"name": "Cold extremities", "frequency": "Common", "severity": "Mild"},
+          {"name": "Depression/Sleep disturbances", "frequency": "Uncommon (5%)", "severity": "Mild to Moderate"}
+        ],
+        "serious": [
+          {"name": "Severe bradycardia/Heart block", "frequency": "Uncommon", "severity": "Severe"},
+          {"name": "Bronchospasm (in asthmatics)", "frequency": "Rare (more selective than propranolol)", "severity": "Moderate to Severe"},
+          {"name": "Decompensated heart failure (if used in acute HF)", "frequency": "Uncommon", "severity": "Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Verapamil/Diltiazem", "severity": "Major", "effect": "Additive cardiac depression; severe bradycardia/heart block", "recommendation": "Avoid combination; use with extreme caution"},
+          {"drug": "Clonidine", "severity": "Major", "effect": "Rebound hypertension if clonidine withdrawn first", "recommendation": "Withdraw metoprolol first when stopping both"},
+          {"drug": "CYP2D6 inhibitors (Fluoxetine, Paroxetine)", "severity": "Moderate", "effect": "Significantly increase metoprolol levels; severe bradycardia", "recommendation": "Use escitalopram/sertraline instead or reduce metoprolol dose"},
+          {"drug": "Insulin", "severity": "Moderate", "effect": "Masks hypoglycemia symptoms", "recommendation": "Monitor blood glucose carefully"}
+        ],
+        "foodInteractions": [
+          {"food": "Food", "effect": "Take with food; increases bioavailability of tartrate form by 40%"},
+          {"food": "Alcohol", "effect": "Additive hypotension; use with caution"}
+        ]
+      },
+      "contraindications": [
+        "Severe bradycardia (<45 bpm)",
+        "Cardiogenic shock",
+        "Sick sinus syndrome (without pacemaker)",
+        "Second/Third-degree heart block (without pacemaker)",
+        "Decompensated acute heart failure",
+        "Severe peripheral arterial disease",
+        "Prinzmetal's angina (unopposed alpha stimulation)"
+      ],
+      "warnings": {
+        "pregnancy": "Category C – associated with fetal growth restriction; use only if clearly needed",
+        "breastfeeding": "Small amounts in breast milk; monitor infant for bradycardia",
+        "elderly": "Increased sensitivity; start low; watch for bradycardia and hypotension",
+        "kidneyDisease": "No dose adjustment needed; renal clearance is minimal"
+      },
+      "monitoring": [
+        "Heart rate and blood pressure",
+        "ECG (if indicated)",
+        "Signs of heart failure",
+        "Blood glucose in diabetics",
+        "Respiratory status in COPD/asthma patients"
+      ],
+      "storage": "Store at room temperature (25°C); protect from moisture and light",
+      "costRange": {
+        "generic": "₹20–₹80 per 30 tablets (India); $4–$15 per 30 tablets (US)",
+        "brand": "₹100–₹350 per 30 tablets (India); $30–$80 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Digoxin",
+      "genericName": "Digoxin",
+      "brandNames": ["Lanoxin", "Digoxin", "Cardioxin", "Dilanacin"],
+      "category": "Cardiac Glycoside",
+      "class": "Cardiac Glycoside",
+      "uses": ["Heart failure with reduced ejection fraction", "Atrial fibrillation (rate control)", "Atrial flutter"],
+      "dosage": {
+        "adult": {
+          "starting": "0.125–0.25mg once daily",
+          "maximum": "0.25mg once daily (0.5mg in acute AF loading)",
+          "typical": "0.125–0.25mg once daily"
+        },
+        "elderly": "0.0625–0.125mg daily; very prone to toxicity; target low serum levels",
+        "children": "Varies widely by age; specialist dosing only"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["Same time daily", "Morning preferred"],
+        "avoid": ["High-fiber meals (reduce absorption)"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Nausea/vomiting", "frequency": "Common (toxicity marker)", "severity": "Mild to Moderate"},
+          {"name": "Anorexia", "frequency": "Common", "severity": "Mild"},
+          {"name": "Bradycardia", "frequency": "Common", "severity": "Mild to Moderate"},
+          {"name": "Visual disturbances (xanthopsia - yellow/green vision)", "frequency": "Common with toxicity", "severity": "Moderate"}
+        ],
+        "serious": [
+          {"name": "Digoxin toxicity (nausea, arrhythmias, vision changes)", "frequency": "Uncommon (narrow therapeutic index)", "severity": "Severe/Life-threatening"},
+          {"name": "Life-threatening arrhythmias (VF, complete heart block)", "frequency": "Rare but serious in toxicity", "severity": "Severe/Life-threatening"},
+          {"name": "Hypokalemia worsening toxicity", "frequency": "Common interaction", "severity": "Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Amiodarone", "severity": "Major", "effect": "Increases digoxin levels by 70–100%; toxicity risk", "recommendation": "Reduce digoxin dose by 50% when starting amiodarone; monitor digoxin levels"},
+          {"drug": "Verapamil", "severity": "Major", "effect": "Increases digoxin levels by 50–75%", "recommendation": "Reduce digoxin dose by 50%; monitor levels"},
+          {"drug": "Quinidine", "severity": "Major", "effect": "Increases digoxin levels by 100%", "recommendation": "Reduce digoxin dose by 50%"},
+          {"drug": "Diuretics (thiazide/loop)", "severity": "Moderate", "effect": "Hypokalemia increases digoxin toxicity risk", "recommendation": "Monitor potassium levels closely"},
+          {"drug": "Clarithromycin/Erythromycin", "severity": "Major", "effect": "Increases digoxin levels significantly", "recommendation": "Monitor digoxin levels"}
+        ],
+        "foodInteractions": [
+          {"food": "High-fiber foods (bran, whole grains)", "effect": "Reduces digoxin absorption; separate by 2 hours"},
+          {"food": "St. John's Wort", "effect": "Reduces digoxin levels; avoid combination"}
+        ]
+      },
+      "contraindications": [
+        "Ventricular fibrillation",
+        "Digitalis toxicity or allergy",
+        "Ventricular tachycardia",
+        "Complete atrioventricular block (without pacemaker)",
+        "Hypertrophic obstructive cardiomyopathy",
+        "Wolff-Parkinson-White syndrome"
+      ],
+      "warnings": {
+        "pregnancy": "Category C – has been used in pregnancy (for fetal arrhythmias); use with caution",
+        "breastfeeding": "Small amounts in breast milk; generally considered safe",
+        "elderly": "High risk of toxicity due to reduced renal clearance; use lowest dose; target serum levels 0.5–0.9 ng/mL",
+        "kidneyDisease": "Major dose reduction required; digoxin renally cleared; dose based on eGFR; monitor serum levels frequently"
+      },
+      "monitoring": [
+        "Serum digoxin levels (therapeutic range: 0.5–2.0 ng/mL; or 0.5–0.9 ng/mL in heart failure)",
+        "Serum electrolytes (especially potassium, magnesium, calcium)",
+        "Renal function (creatinine, eGFR)",
+        "ECG (heart rate and rhythm)",
+        "Signs of toxicity: nausea, vomiting, visual changes, arrhythmias"
+      ],
+      "storage": "Store at 25°C; excursions to 15–30°C permitted; protect from light",
+      "costRange": {
+        "generic": "₹30–₹100 per 30 tablets (India); $5–$20 per 30 tablets (US)",
+        "brand": "₹80–₹250 per 30 tablets (India); $20–$60 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Levothyroxine",
+      "genericName": "Levothyroxine Sodium (T4)",
+      "brandNames": ["Synthroid", "Eltroxin", "Thyronorm", "Levoxyl", "Euthyrox"],
+      "category": "Thyroid Hormone",
+      "class": "Thyroid Hormone Replacement (Synthetic T4)",
+      "uses": ["Hypothyroidism", "Myxedema coma", "Thyroid-stimulating hormone (TSH) suppression (thyroid cancer)", "Goiter"],
+      "dosage": {
+        "adult": {
+          "starting": "25–50mcg once daily (cautious start, especially elderly/cardiac patients)",
+          "maximum": "200–300mcg per day (individualized)",
+          "typical": "1.6 mcg/kg/day for full replacement therapy"
+        },
+        "elderly": "Start at 12.5–25mcg; increase by 12.5–25mcg every 4–8 weeks; cardiac risks at higher doses",
+        "children": "Neonates: 10–15mcg/kg/day; Children: age-dependent dosing (6–12mcg/kg/day decreasing with age)"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": true,
+        "preferredTimes": ["30–60 minutes before breakfast", "Morning on empty stomach"],
+        "avoid": ["Calcium-containing foods/supplements (4 hour separation)", "Iron (4 hours)", "Coffee (30 min–1 hr)", "Soy products", "High-fiber foods (close to dose)"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Symptoms of hyperthyroidism if over-replaced (palpitations, sweating, tremor)", "frequency": "Common with excessive dose", "severity": "Mild to Moderate"},
+          {"name": "Insomnia", "frequency": "Common with excessive dose", "severity": "Mild"},
+          {"name": "Headache", "frequency": "Uncommon", "severity": "Mild"},
+          {"name": "Hair loss (initial treatment)", "frequency": "Common (temporary)", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "Cardiac arrhythmias (especially AF)", "frequency": "Uncommon (with excessive dose)", "severity": "Moderate to Severe"},
+          {"name": "Angina/Myocardial infarction (in cardiac patients)", "frequency": "Uncommon with rapid dose increase", "severity": "Severe"},
+          {"name": "Osteoporosis (long-term over-suppression)", "frequency": "Uncommon with long-term use", "severity": "Moderate"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Calcium carbonate", "severity": "Moderate", "effect": "Reduces levothyroxine absorption by 20–40%", "recommendation": "Take levothyroxine 4 hours before calcium"},
+          {"drug": "Ferrous sulfate (Iron)", "severity": "Moderate", "effect": "Reduces absorption significantly", "recommendation": "Separate by 4 hours"},
+          {"drug": "Proton pump inhibitors", "severity": "Minor to Moderate", "effect": "Reduces absorption; may need dose increase", "recommendation": "Monitor TSH levels"},
+          {"drug": "Warfarin", "severity": "Moderate", "effect": "Thyroid hormones increase sensitivity to warfarin", "recommendation": "Monitor INR when thyroid dose changes"},
+          {"drug": "Rifampicin/Phenytoin/Carbamazepine", "severity": "Moderate", "effect": "Increases levothyroxine metabolism; higher dose may be needed", "recommendation": "Monitor TSH levels"}
+        ],
+        "foodInteractions": [
+          {"food": "Food (any food)", "effect": "Reduces absorption; take on empty stomach 30–60 min before eating"},
+          {"food": "Coffee/Espresso", "effect": "Reduces absorption by up to 29%; wait 30–60 min after taking levothyroxine"},
+          {"food": "Soy products", "effect": "Interfere with absorption and hormone metabolism"},
+          {"food": "Grapefruit juice", "effect": "May reduce absorption; avoid around dosing time"}
+        ]
+      },
+      "contraindications": [
+        "Thyrotoxicosis/Hyperthyroidism (untreated)",
+        "Acute myocardial infarction (relative contraindication to rapid dose increase)",
+        "Hypersensitivity to levothyroxine",
+        "Uncorrected adrenal insufficiency (treat adrenal insufficiency first)"
+      ],
+      "warnings": {
+        "pregnancy": "Category A – essential in pregnancy; dose requirements increase by 25–50%; monitor TSH monthly",
+        "breastfeeding": "Safe; present in breast milk but amounts insufficient for infant; supplement if infant hypothyroid",
+        "elderly": "Start at very low doses (12.5–25mcg); cardiac risk with rapid titration; target TSH at upper normal range",
+        "kidneyDisease": "No specific dose adjustment; monitor TSH levels"
+      },
+      "monitoring": [
+        "TSH (thyroid stimulating hormone) – 6–8 weeks after dose change, then annually once stable",
+        "Free T4 levels (especially in pregnancy)",
+        "Heart rate and symptoms of hyper/hypothyroidism",
+        "Bone density (long-term TSH suppression)",
+        "Lipid profile (hypothyroidism affects cholesterol)"
+      ],
+      "storage": "Store at room temperature (15–30°C); protect from light, moisture, and heat; keep away from humid environment (not in bathroom)",
+      "costRange": {
+        "generic": "₹30–₹100 per 30 tablets (India); $4–$15 per 30 tablets (US)",
+        "brand": "₹100–₹300 per 30 tablets (India); $30–$80 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Methimazole",
+      "genericName": "Methimazole (Thiamazole)",
+      "brandNames": ["Tapazole", "Neomercazole", "Carbimazole (prodrug)", "Methimer", "Thyrozol"],
+      "category": "Antithyroid",
+      "class": "Thionamide",
+      "uses": ["Hyperthyroidism (Graves' disease)", "Toxic nodular goiter", "Pre-thyroidectomy thyroid preparation", "Thyroid storm (adjunct)"],
+      "dosage": {
+        "adult": {
+          "starting": "10–30mg/day in divided doses (depending on severity)",
+          "maximum": "60mg per day (in severe thyrotoxicosis)",
+          "typical": "15–30mg/day in divided doses for initial control; then 5–15mg/day maintenance"
+        },
+        "elderly": "Standard dosing; monitor for agranulocytosis",
+        "children": "0.5–0.7mg/kg/day in divided doses; max 30mg/day"
+      },
+      "timing": {
+        "withFood": true,
+        "emptyStomach": false,
+        "preferredTimes": ["With meals to reduce GI upset", "Evenly divided doses throughout the day"],
+        "avoid": []
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Skin rash/itching", "frequency": "Common (5–10%)", "severity": "Mild"},
+          {"name": "Nausea", "frequency": "Common", "severity": "Mild"},
+          {"name": "Headache", "frequency": "Common", "severity": "Mild"},
+          {"name": "Joint pain", "frequency": "Uncommon", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "Agranulocytosis (sudden severe neutropenia)", "frequency": "Rare (0.1–0.5%)", "severity": "Severe/Life-threatening"},
+          {"name": "Hepatotoxicity/Cholestatic jaundice", "frequency": "Rare", "severity": "Severe"},
+          {"name": "Aplastic anemia", "frequency": "Very rare", "severity": "Severe/Life-threatening"},
+          {"name": "Lupus-like syndrome", "frequency": "Very rare", "severity": "Moderate"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Warfarin", "severity": "Moderate", "effect": "Hyperthyroidism correction increases warfarin effect; INR may change", "recommendation": "Monitor INR closely during thyroid treatment"},
+          {"drug": "Digoxin", "severity": "Moderate", "effect": "Hyperthyroidism treatment increases digoxin levels", "recommendation": "Monitor digoxin levels"},
+          {"drug": "Beta-blockers", "severity": "Minor", "effect": "Effect of beta-blockers may increase as thyroid function normalizes", "recommendation": "Monitor heart rate; may need beta-blocker dose reduction"}
+        ],
+        "foodInteractions": [
+          {"food": "Iodine-rich foods (seaweed, iodized salt)", "effect": "May interfere with treatment and thyroid function"},
+          {"food": "Food", "effect": "Take with meals to reduce GI side effects"}
+        ]
+      },
+      "contraindications": [
+        "Hypersensitivity to methimazole or thionamides",
+        "First trimester of pregnancy (preferred: PTU in 1st trimester, then switch to methimazole)",
+        "Agranulocytosis history with thionamides"
+      ],
+      "warnings": {
+        "pregnancy": "Category D – crosses placenta; may cause fetal hypothyroidism; avoid in 1st trimester (use PTU instead); use lowest effective dose in 2nd/3rd trimester",
+        "breastfeeding": "Excreted in breast milk; low doses considered acceptable (monitor infant thyroid function)",
+        "elderly": "Monitor CBC closely for agranulocytosis",
+        "kidneyDisease": "No specific dose adjustment; use with caution"
+      },
+      "monitoring": [
+        "Thyroid function tests (TSH, free T4) every 4–6 weeks initially",
+        "CBC with differential (immediately if fever or sore throat develops – sign of agranulocytosis)",
+        "Liver function tests",
+        "Signs of agranulocytosis (fever, chills, sore throat)",
+        "Pregnancy tests in women of childbearing age"
+      ],
+      "storage": "Store at room temperature (15–30°C), away from light and moisture",
+      "costRange": {
+        "generic": "₹30–₹100 per 30 tablets (India); $15–$40 per 30 tablets (US)",
+        "brand": "₹80–₹250 per 30 tablets (India); $30–$80 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Omeprazole",
+      "genericName": "Omeprazole Magnesium",
+      "brandNames": ["Prilosec", "Omez", "Omesec", "Lomac", "Ocid"],
+      "category": "Acid Reflux / GI",
+      "class": "Proton Pump Inhibitor (PPI)",
+      "uses": ["Gastroesophageal reflux disease (GERD)", "Peptic ulcer disease", "H. pylori eradication (in combination)", "Zollinger-Ellison syndrome", "Prevention of NSAID-induced ulcers", "Stress ulcer prophylaxis"],
+      "dosage": {
+        "adult": {
+          "starting": "20mg once daily",
+          "maximum": "80mg per day (higher doses in ZES)",
+          "typical": "20–40mg once daily before breakfast"
+        },
+        "elderly": "Standard dosing; reduce if hepatic impairment",
+        "children": "Children >1 year: 0.7–3.3mg/kg/day; max 20–40mg/day"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": true,
+        "preferredTimes": ["30–60 minutes before breakfast", "30 minutes before meals"],
+        "avoid": ["After meals (reduces efficacy)"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Headache", "frequency": "Common (5–7%)", "severity": "Mild"},
+          {"name": "Nausea", "frequency": "Common (4%)", "severity": "Mild"},
+          {"name": "Diarrhea", "frequency": "Common (4%)", "severity": "Mild"},
+          {"name": "Abdominal pain", "frequency": "Common (4%)", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "Clostridium difficile infection", "frequency": "Uncommon (increased with PPIs)", "severity": "Moderate to Severe"},
+          {"name": "Hypomagnesemia (with prolonged use)", "frequency": "Uncommon with long-term use", "severity": "Moderate to Severe"},
+          {"name": "Osteoporosis/fractures (long-term use)", "frequency": "Small increased risk with long-term use", "severity": "Moderate"},
+          {"name": "Acute interstitial nephritis", "frequency": "Rare", "severity": "Severe"},
+          {"name": "Vitamin B12 deficiency (long-term)", "frequency": "Uncommon with long-term use", "severity": "Moderate"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Clopidogrel", "severity": "Moderate", "effect": "Reduces activation of clopidogrel (CYP2C19 inhibition)", "recommendation": "Use pantoprazole instead of omeprazole/esomeprazole with clopidogrel"},
+          {"drug": "Methotrexate", "severity": "Moderate", "effect": "Increases methotrexate levels", "recommendation": "Monitor for methotrexate toxicity"},
+          {"drug": "Ketoconazole/Itraconazole", "severity": "Moderate", "effect": "Reduces azole antifungal absorption", "recommendation": "Take azoles in an acidic environment; consider alternative"},
+          {"drug": "Warfarin", "severity": "Minor", "effect": "Slight increase in INR with some patients", "recommendation": "Monitor INR if starting or stopping omeprazole"}
+        ],
+        "foodInteractions": [
+          {"food": "Food", "effect": "Take 30–60 min before meals for optimal efficacy"},
+          {"food": "St. John's Wort", "effect": "Reduces omeprazole levels; avoid combination"}
+        ]
+      },
+      "contraindications": [
+        "Hypersensitivity to omeprazole or substituted benzimidazoles",
+        "Concurrent use with rilpivirine (reduces HIV drug levels)"
+      ],
+      "warnings": {
+        "pregnancy": "Category C – used when benefits outweigh risks; GERD is common in pregnancy",
+        "breastfeeding": "Excreted in breast milk; generally considered compatible for short-term use",
+        "elderly": "Use lowest effective dose; increased risk of C. difficile and fractures",
+        "kidneyDisease": "No dose adjustment needed; not renally eliminated"
+      },
+      "monitoring": [
+        "Symptom resolution",
+        "Serum magnesium (long-term use)",
+        "Vitamin B12 levels (long-term use)",
+        "Bone density (long-term use in risk patients)",
+        "Signs of C. difficile",
+        "Renal function (acute interstitial nephritis if unexplained kidney changes)"
+      ],
+      "storage": "Store at 25°C; excursions to 15–30°C permitted; protect from moisture and light",
+      "costRange": {
+        "generic": "₹15–₹60 per 30 capsules (India); $4–$15 per 30 capsules (US)",
+        "brand": "₹60–₹200 per 30 capsules (India); $20–$50 per 30 capsules (US)"
+      }
+    },
+    {
+      "medicineName": "Pantoprazole",
+      "genericName": "Pantoprazole Sodium",
+      "brandNames": ["Protonix", "Pantop", "Pan-D", "Pantozol", "Nupenta"],
+      "category": "Acid Reflux / GI",
+      "class": "Proton Pump Inhibitor (PPI)",
+      "uses": ["GERD", "Erosive esophagitis", "H. pylori eradication (combination)", "Peptic ulcer disease", "Zollinger-Ellison syndrome", "GI bleed prevention in ICU"],
+      "dosage": {
+        "adult": {
+          "starting": "40mg once daily",
+          "maximum": "80–240mg per day (ZES)",
+          "typical": "40mg once daily before breakfast"
+        },
+        "elderly": "Standard dosing; reduce if severe hepatic impairment",
+        "children": ">5 years: 20–40mg once daily; weight-based dosing"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": true,
+        "preferredTimes": ["30–60 minutes before breakfast"],
+        "avoid": ["After meals", "Crushing or chewing (delayed-release tablets)"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Headache", "frequency": "Common (5%)", "severity": "Mild"},
+          {"name": "Diarrhea", "frequency": "Common (4%)", "severity": "Mild"},
+          {"name": "Nausea", "frequency": "Common (4%)", "severity": "Mild"},
+          {"name": "Flatulence", "frequency": "Common", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "Hypomagnesemia", "frequency": "Uncommon with long-term use", "severity": "Moderate to Severe"},
+          {"name": "C. difficile colitis", "frequency": "Small increased risk", "severity": "Moderate to Severe"},
+          {"name": "Acute interstitial nephritis", "frequency": "Rare", "severity": "Severe"},
+          {"name": "Bone fractures", "frequency": "Small increased risk with long-term use", "severity": "Moderate"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Clopidogrel", "severity": "Minor (less than omeprazole)", "effect": "Less CYP2C19 inhibition; preferred PPI with clopidogrel", "recommendation": "Preferred PPI to use with clopidogrel"},
+          {"drug": "Methotrexate", "severity": "Moderate", "effect": "Increases methotrexate levels", "recommendation": "Monitor for toxicity"},
+          {"drug": "Ketoconazole", "severity": "Moderate", "effect": "Reduces absorption of ketoconazole", "recommendation": "Avoid combination or use acidic beverage"}
+        ],
+        "foodInteractions": [
+          {"food": "Food", "effect": "Take before meals; food reduces efficacy"}
+        ]
+      },
+      "contraindications": [
+        "Hypersensitivity to pantoprazole or benzimidazoles",
+        "Concurrent rilpivirine use"
+      ],
+      "warnings": {
+        "pregnancy": "Category B – preferred PPI in pregnancy (more data than other PPIs)",
+        "breastfeeding": "Compatible for short-term use",
+        "elderly": "Use lowest effective dose; fracture and infection risks",
+        "kidneyDisease": "No dose adjustment; not renally eliminated"
+      },
+      "monitoring": [
+        "Symptom resolution",
+        "Magnesium levels (>3 months use)",
+        "Vitamin B12 (long-term)",
+        "Bone health assessment",
+        "Signs of C. difficile"
+      ],
+      "storage": "Store at room temperature (15–30°C), protect from moisture",
+      "costRange": {
+        "generic": "₹15–₹60 per 30 tablets (India); $5–$18 per 30 tablets (US)",
+        "brand": "₹60–₹200 per 30 tablets (India); $25–$80 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Ranitidine",
+      "genericName": "Ranitidine Hydrochloride",
+      "brandNames": ["Zantac", "Rantac", "Aciloc", "Histac", "Zinetac"],
+      "category": "Acid Reflux / GI",
+      "class": "H2 Receptor Antagonist",
+      "uses": ["GERD", "Peptic ulcer disease", "Heartburn", "Zollinger-Ellison syndrome", "Prevention of stress ulcers"],
+      "dosage": {
+        "adult": {
+          "starting": "150mg twice daily or 300mg once daily at bedtime",
+          "maximum": "300mg per day (6g/day in ZES)",
+          "typical": "150mg twice daily or 300mg at bedtime"
+        },
+        "elderly": "Standard dosing; reduce if renal impairment",
+        "children": "2–4mg/kg twice daily; max 300mg/day"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["With or without meals", "Bedtime dose if once daily"],
+        "avoid": []
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Headache", "frequency": "Common (5%)", "severity": "Mild"},
+          {"name": "Diarrhea", "frequency": "Common", "severity": "Mild"},
+          {"name": "Constipation", "frequency": "Common", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "NDMA contamination concern", "frequency": "Regulatory concern leading to market withdrawal in many countries", "severity": "Moderate (carcinogen concern)"},
+          {"name": "Thrombocytopenia", "frequency": "Rare", "severity": "Moderate"},
+          {"name": "Hepatitis", "frequency": "Very rare", "severity": "Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Warfarin", "severity": "Minor", "effect": "Minor increase in anticoagulant effect", "recommendation": "Monitor INR"},
+          {"drug": "Ketoconazole", "severity": "Moderate", "effect": "Reduces absorption of ketoconazole", "recommendation": "Separate administration"}
+        ],
+        "foodInteractions": [
+          {"food": "Food", "effect": "No significant interaction"}
+        ]
+      },
+      "contraindications": [
+        "Hypersensitivity to ranitidine",
+        "Note: Ranitidine has been withdrawn in many markets due to NDMA contamination concerns"
+      ],
+      "warnings": {
+        "pregnancy": "Category B – considered safe; widely used",
+        "breastfeeding": "Excreted in breast milk; generally compatible",
+        "elderly": "Reduce dose if renal impairment",
+        "kidneyDisease": "Dose reduction required: eGFR <50: 150mg once daily or every 36–48 hours"
+      },
+      "monitoring": [
+        "Symptom control",
+        "Renal function (for dose adjustment)",
+        "Note: Check if still available in your country (withdrawn in many markets)"
+      ],
+      "storage": "Store at room temperature (15–30°C), protect from light",
+      "costRange": {
+        "generic": "₹10–₹40 per 30 tablets (India – if available); $5–$20 per 30 tablets (limited markets)",
+        "brand": "₹30–₹100 per 30 tablets (where available)"
+      }
+    },
+    {
+      "medicineName": "Salbutamol",
+      "genericName": "Salbutamol Sulfate (Albuterol)",
+      "brandNames": ["Ventolin", "Asthalin", "Salbetol", "Proventil", "Salamol"],
+      "category": "Asthma / Bronchodilator",
+      "class": "Short-Acting Beta-2 Agonist (SABA)",
+      "uses": ["Acute bronchospasm (asthma attack)", "Exercise-induced bronchospasm", "COPD exacerbation", "Bronchospasm prophylaxis before exercise"],
+      "dosage": {
+        "adult": {
+          "starting": "Inhaler: 1–2 puffs (100–200mcg) every 4–6 hours as needed",
+          "maximum": "Inhaler: 8 puffs/day maximum",
+          "typical": "2 puffs (200mcg) as needed for acute bronchospasm; nebulization: 2.5–5mg"
+        },
+        "elderly": "Standard inhaled dosing; watch for tachycardia and tremor",
+        "children": "1 puff (100mcg) for mild symptoms; 2 puffs (200mcg) for moderate/severe; age-appropriate spacer use"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["As needed for symptoms", "15–20 minutes before exercise (for prophylaxis)"],
+        "avoid": ["Overuse (>8 puffs/day indicates poor asthma control; seek medical review)", "Using without inhaler technique review"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Tremor (hands)", "frequency": "Common (10–20%)", "severity": "Mild"},
+          {"name": "Palpitations/Tachycardia", "frequency": "Common (5–10%)", "severity": "Mild"},
+          {"name": "Headache", "frequency": "Common", "severity": "Mild"},
+          {"name": "Hypokalemia (high doses)", "frequency": "Uncommon", "severity": "Mild to Moderate"},
+          {"name": "Dry mouth/throat irritation", "frequency": "Common", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "Severe tachycardia/Cardiac arrhythmias", "frequency": "Rare (usually with excessive doses)", "severity": "Moderate to Severe"},
+          {"name": "Paradoxical bronchospasm", "frequency": "Rare", "severity": "Severe"},
+          {"name": "Severe hypokalemia (IV/nebulized high-dose)", "frequency": "Uncommon in high doses", "severity": "Moderate to Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Non-selective Beta-blockers (Propranolol)", "severity": "Major", "effect": "Blocks bronchodilatory effect; may worsen bronchospasm", "recommendation": "Contraindicated in asthma; use cardioselective beta-blocker if necessary"},
+          {"drug": "Loop/Thiazide diuretics", "severity": "Moderate", "effect": "Additive hypokalemia risk (high doses of both)", "recommendation": "Monitor potassium levels"},
+          {"drug": "MAO inhibitors/Tricyclic antidepressants", "severity": "Moderate", "effect": "May potentiate cardiovascular effects", "recommendation": "Use with caution"}
+        ],
+        "foodInteractions": [
+          {"food": "Caffeine", "effect": "Additive tachycardia and CNS stimulation; monitor heart rate"}
+        ]
+      },
+      "contraindications": [
+        "Hypersensitivity to salbutamol",
+        "Not for use in Type 2 asthma (non-allergic/aspirin-sensitive asthma) without precautions",
+        "Hypertrophic obstructive cardiomyopathy (relative)"
+      ],
+      "warnings": {
+        "pregnancy": "Category C – used when clearly needed; may inhibit uterine contractions",
+        "breastfeeding": "Compatible with breastfeeding; low amounts in breast milk",
+        "elderly": "Monitor for cardiovascular effects (tachycardia, arrhythmias)",
+        "kidneyDisease": "No specific dose adjustment needed for inhaled salbutamol"
+      },
+      "monitoring": [
+        "Frequency of use (increasing use signals deteriorating control)",
+        "Peak flow/spirometry",
+        "Heart rate and rhythm (especially with nebulization)",
+        "Serum potassium (with frequent nebulization)",
+        "Inhaler technique"
+      ],
+      "storage": "Store at 15–25°C, away from direct sunlight and heat; do not freeze inhaler; keep cap on when not in use",
+      "costRange": {
+        "generic": "₹60–₹150 per inhaler (India); $15–$40 per inhaler (US – generic)",
+        "brand": "₹150–₹400 per inhaler (India); $30–$80 per inhaler (US)"
+      }
+    },
+    {
+      "medicineName": "Montelukast",
+      "genericName": "Montelukast Sodium",
+      "brandNames": ["Singulair", "Montair", "Telcast", "Montek", "Romilast"],
+      "category": "Asthma / Allergic rhinitis",
+      "class": "Leukotriene Receptor Antagonist",
+      "uses": ["Asthma prophylaxis (add-on to ICS)", "Allergic rhinitis (seasonal and perennial)", "Exercise-induced bronchoconstriction", "Chronic urticaria"],
+      "dosage": {
+        "adult": {
+          "starting": "10mg once daily",
+          "maximum": "10mg once daily",
+          "typical": "10mg once daily in the evening"
+        },
+        "elderly": "Standard 10mg dose; no adjustment needed",
+        "children": "6 months–5 years: 4mg granules/chewable; 6–14 years: 5mg chewable; ≥15 years: 10mg tablet"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["Evening (before bedtime)", "At the same time daily"],
+        "avoid": []
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Headache", "frequency": "Common (18%)", "severity": "Mild"},
+          {"name": "Abdominal pain", "frequency": "Common (in children)", "severity": "Mild"},
+          {"name": "Upper respiratory infection", "frequency": "Common", "severity": "Mild"},
+          {"name": "Fatigue", "frequency": "Common", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "Neuropsychiatric effects (anxiety, depression, suicidal ideation)", "frequency": "Rare but FDA black box warning", "severity": "Severe"},
+          {"name": "Eosinophilic granulomatosis with polyangiitis (Churg-Strauss)", "frequency": "Very rare (with steroid taper)", "severity": "Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Phenobarbital/Rifampicin", "severity": "Minor", "effect": "Reduces montelukast levels via CYP3A4 induction", "recommendation": "Monitor efficacy"},
+          {"drug": "Gemfibrozil", "severity": "Minor", "effect": "Increases montelukast exposure", "recommendation": "Monitor for increased side effects"}
+        ],
+        "foodInteractions": [
+          {"food": "Food", "effect": "No significant interaction; can be taken with or without food"}
+        ]
+      },
+      "contraindications": [
+        "Hypersensitivity to montelukast",
+        "Active neuropsychiatric conditions (relative; benefit-risk assessment required)",
+        "Not for acute asthma attacks (not a bronchodilator)"
+      ],
+      "warnings": {
+        "pregnancy": "Category B – used when benefits outweigh risks; generally considered safe",
+        "breastfeeding": "Unknown if excreted in breast milk; use with caution",
+        "elderly": "Standard dosing; monitor for neuropsychiatric side effects",
+        "kidneyDisease": "No dose adjustment needed"
+      },
+      "monitoring": [
+        "Asthma control (peak flow, symptoms)",
+        "Neuropsychiatric symptoms (behavioral changes, mood changes, suicidal ideation)",
+        "Allergy symptom control"
+      ],
+      "storage": "Store at 25°C; excursions to 15–30°C permitted; protect from moisture and light",
+      "costRange": {
+        "generic": "₹30–₹100 per 30 tablets (India); $5–$20 per 30 tablets (US)",
+        "brand": "₹100–₹350 per 30 tablets (India); $50–$150 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Budesonide",
+      "genericName": "Budesonide",
+      "brandNames": ["Pulmicort", "Budecort", "Rhinocort", "Budesal", "Symbicort (with formoterol)"],
+      "category": "Asthma / Anti-inflammatory",
+      "class": "Inhaled Corticosteroid (ICS)",
+      "uses": ["Asthma (maintenance/controller therapy)", "COPD (in combination)", "Allergic rhinitis (nasal spray)", "Croup (nebulized)", "Crohn's disease/Ulcerative colitis (oral formulation)"],
+      "dosage": {
+        "adult": {
+          "starting": "200–400mcg twice daily (inhaled)",
+          "maximum": "1600mcg per day (inhaled)",
+          "typical": "200–400mcg twice daily via inhaler"
+        },
+        "elderly": "Standard inhaled dosing; monitor for osteoporosis with high long-term doses",
+        "children": "200–400mcg per day via inhaler; adjust by age and severity"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["Morning and evening (consistent timing)", "Rinse mouth with water after use"],
+        "avoid": ["Skipping doses (consistency is key for asthma control)"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Oral candidiasis (thrush)", "frequency": "Common (2–5%)", "severity": "Mild"},
+          {"name": "Dysphonia (hoarse voice)", "frequency": "Common (2–4%)", "severity": "Mild"},
+          {"name": "Throat irritation", "frequency": "Common", "severity": "Mild"},
+          {"name": "Cough", "frequency": "Common", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "Adrenal suppression (high doses)", "frequency": "Uncommon with high doses", "severity": "Moderate to Severe"},
+          {"name": "Growth retardation in children", "frequency": "Uncommon with high doses", "severity": "Moderate"},
+          {"name": "Osteoporosis (long-term high dose)", "frequency": "Uncommon", "severity": "Moderate"},
+          {"name": "Cataracts/Glaucoma (long-term)", "frequency": "Uncommon", "severity": "Moderate"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "CYP3A4 inhibitors (Ketoconazole, Ritonavir)", "severity": "Moderate", "effect": "Increases systemic budesonide exposure; adrenal suppression risk", "recommendation": "Avoid or use minimum budesonide dose with strong CYP3A4 inhibitors"}
+        ],
+        "foodInteractions": [
+          {"food": "Grapefruit juice", "effect": "May increase systemic absorption (minimal with inhaled route)"}
+        ]
+      },
+      "contraindications": [
+        "Hypersensitivity to budesonide",
+        "Active pulmonary tuberculosis",
+        "Untreated systemic fungal, bacterial, or viral infections (relative)",
+        "Primary treatment of status asthmaticus or acute asthma (for systemic, not inhaled)"
+      ],
+      "warnings": {
+        "pregnancy": "Category B (inhaled); Category C (systemic) – inhaled form preferred and generally safe",
+        "breastfeeding": "Compatible with inhaled use; low systemic absorption",
+        "elderly": "Monitor for adrenal suppression and bone density with high doses",
+        "kidneyDisease": "No adjustment for inhaled form; systemic form may need monitoring"
+      },
+      "monitoring": [
+        "Asthma control (peak flow, exacerbation frequency)",
+        "Oral mucosa for candidiasis",
+        "Height in children (growth monitoring)",
+        "Bone density (long-term high-dose use)",
+        "Adrenal function (if symptoms of adrenal insufficiency occur)",
+        "Eye pressure (glaucoma risk)"
+      ],
+      "storage": "Store at room temperature; inhaler away from direct heat and sunlight; do not freeze; shake before use",
+      "costRange": {
+        "generic": "₹100–₹350 per inhaler (India); $20–$60 per inhaler (US)",
+        "brand": "₹300–₹800 per inhaler (India); $50–$150 per inhaler (US)"
+      }
+    },
+    {
+      "medicineName": "Sertraline",
+      "genericName": "Sertraline Hydrochloride",
+      "brandNames": ["Zoloft", "Serta", "Serlift", "Daxid", "Lustral"],
+      "category": "Mental Health / Antidepressant",
+      "class": "Selective Serotonin Reuptake Inhibitor (SSRI)",
+      "uses": ["Major depressive disorder", "Generalized anxiety disorder", "Panic disorder", "PTSD", "Obsessive-compulsive disorder (OCD)", "Social anxiety disorder", "PMDD"],
+      "dosage": {
+        "adult": {
+          "starting": "50mg once daily",
+          "maximum": "200mg per day",
+          "typical": "50–200mg once daily"
+        },
+        "elderly": "Start at 25–50mg; titrate slowly; serotonin syndrome risk is higher",
+        "children": "OCD in children ≥6 years: 25mg initially, titrate up to 200mg/day; Depression (13–17 years): 50mg/day"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["Morning or evening (consistent timing)", "With food to reduce nausea initially"],
+        "avoid": ["MAO inhibitors (14-day washout required)"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Nausea", "frequency": "Very common (20–26%)", "severity": "Mild (usually transient)"},
+          {"name": "Insomnia/Sleep disturbances", "frequency": "Common (13–20%)", "severity": "Mild"},
+          {"name": "Diarrhea", "frequency": "Common (20%)", "severity": "Mild"},
+          {"name": "Sexual dysfunction", "frequency": "Common (6–14%)", "severity": "Moderate"},
+          {"name": "Tremor", "frequency": "Common (5–8%)", "severity": "Mild"},
+          {"name": "Dry mouth", "frequency": "Common (14%)", "severity": "Mild"},
+          {"name": "Somnolence", "frequency": "Common (13%)", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "Serotonin syndrome", "frequency": "Rare (with drug interactions)", "severity": "Severe/Life-threatening"},
+          {"name": "Suicidal ideation (increased in <25 years initially)", "frequency": "FDA black box warning for youth", "severity": "Severe"},
+          {"name": "QT prolongation", "frequency": "Rare", "severity": "Moderate to Severe"},
+          {"name": "Hyponatremia (SIADH)", "frequency": "Uncommon (especially in elderly)", "severity": "Moderate to Severe"},
+          {"name": "Bleeding (GI/bruising)", "frequency": "Uncommon", "severity": "Moderate"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "MAO inhibitors (phenelzine, tranylcypromine)", "severity": "Major/Absolute contraindication", "effect": "Life-threatening serotonin syndrome", "recommendation": "Never combine; 14-day washout from MAOI before starting sertraline; 14-day washout from sertraline before MAOI"},
+          {"drug": "Linezolid / Methylene blue", "severity": "Major", "effect": "Serotonin syndrome risk", "recommendation": "Avoid combination; emergency use only with monitoring"},
+          {"drug": "Tramadol", "severity": "Moderate", "effect": "Increased serotonin syndrome risk and seizures", "recommendation": "Avoid or use with extreme caution"},
+          {"drug": "NSAIDs/Aspirin", "severity": "Moderate", "effect": "Increased GI bleeding risk (SSRI + NSAID)", "recommendation": "Use PPI if combination necessary"},
+          {"drug": "Warfarin", "severity": "Moderate", "effect": "May increase INR", "recommendation": "Monitor INR"}
+        ],
+        "foodInteractions": [
+          {"food": "Alcohol", "effect": "CNS depression; avoid during treatment"},
+          {"food": "Grapefruit juice", "effect": "May slightly increase sertraline levels"},
+          {"food": "Food", "effect": "Can take with food to reduce nausea; food may increase bioavailability"}
+        ]
+      },
+      "contraindications": [
+        "Concurrent MAOI use or within 14 days of stopping MAOI",
+        "Concurrent linezolid or IV methylene blue",
+        "Hypersensitivity to sertraline",
+        "Concurrent thioridazine or pimozide use"
+      ],
+      "warnings": {
+        "pregnancy": "Category C – associated with neonatal adaptation syndrome (jitteriness, irritability); PPHN risk; weigh risk vs benefit carefully",
+        "breastfeeding": "Low levels in breast milk; generally considered compatible; monitor infant",
+        "elderly": "Increased risk of hyponatremia, falls; start at half dose",
+        "kidneyDisease": "No dose adjustment needed; use with caution in severe impairment"
+      },
+      "monitoring": [
+        "Mood and depressive symptoms",
+        "Suicidal ideation (especially first 4 weeks in youth)",
+        "Serum sodium (hyponatremia in elderly)",
+        "Signs of serotonin syndrome (agitation, tremor, hyperthermia, diarrhea)",
+        "Sexual function",
+        "INR if on warfarin",
+        "Behavioral changes in children/adolescents"
+      ],
+      "storage": "Store at 25°C; excursions to 15–30°C permitted; protect from moisture",
+      "costRange": {
+        "generic": "₹50–₹200 per 30 tablets (India); $4–$20 per 30 tablets (US)",
+        "brand": "₹200–₹600 per 30 tablets (India); $50–$200 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Fluoxetine",
+      "genericName": "Fluoxetine Hydrochloride",
+      "brandNames": ["Prozac", "Fludac", "Fluxet", "Flunil", "Prodep"],
+      "category": "Mental Health / Antidepressant",
+      "class": "Selective Serotonin Reuptake Inhibitor (SSRI)",
+      "uses": ["Major depressive disorder", "Obsessive-compulsive disorder", "Panic disorder", "Bulimia nervosa", "Premenstrual dysphoric disorder (PMDD)", "Bipolar depression (with olanzapine)"],
+      "dosage": {
+        "adult": {
+          "starting": "10–20mg once daily",
+          "maximum": "80mg per day",
+          "typical": "20–40mg once daily (morning)"
+        },
+        "elderly": "Start at 10mg; titrate slowly; monitor for hyponatremia; longer half-life means accumulation risk is high",
+        "children": "Children ≥8 years (depression/OCD): 10–20mg/day"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["Morning (activating effect; may cause insomnia if taken at night)"],
+        "avoid": ["Evening/Nighttime dosing", "MAO inhibitors"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Nausea", "frequency": "Very common (21%)", "severity": "Mild (usually transient)"},
+          {"name": "Insomnia", "frequency": "Very common (16–33%)", "severity": "Mild to Moderate"},
+          {"name": "Sexual dysfunction", "frequency": "Common (2–11%)", "severity": "Moderate"},
+          {"name": "Headache", "frequency": "Common (21%)", "severity": "Mild"},
+          {"name": "Diarrhea", "frequency": "Common (12%)", "severity": "Mild"},
+          {"name": "Tremor", "frequency": "Common (10%)", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "Serotonin syndrome (with interactions)", "frequency": "Rare", "severity": "Severe/Life-threatening"},
+          {"name": "Suicidal ideation (under 25 years)", "frequency": "FDA black box warning", "severity": "Severe"},
+          {"name": "Prolonged QTc interval", "frequency": "Rare", "severity": "Moderate to Severe"},
+          {"name": "Hyponatremia (SIADH)", "frequency": "Uncommon", "severity": "Moderate to Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "MAO inhibitors", "severity": "Major/Absolute contraindication", "effect": "Life-threatening serotonin syndrome", "recommendation": "Never combine; 5-week washout before starting MAOI after stopping fluoxetine (long half-life)"},
+          {"drug": "Tamoxifen", "severity": "Major", "effect": "CYP2D6 inhibition by fluoxetine reduces tamoxifen efficacy in breast cancer", "recommendation": "Use sertraline or venlafaxine instead"},
+          {"drug": "Pimozide", "severity": "Major", "effect": "Increases pimozide levels; cardiac arrhythmias", "recommendation": "Contraindicated"},
+          {"drug": "Tricyclic antidepressants", "severity": "Major", "effect": "Increases TCA levels significantly", "recommendation": "Reduce TCA dose; monitor TCA levels"}
+        ],
+        "foodInteractions": [
+          {"food": "Alcohol", "effect": "CNS depression; avoid during treatment"},
+          {"food": "Food", "effect": "Can be taken with food to reduce nausea"}
+        ]
+      },
+      "contraindications": [
+        "Concurrent MAOI use or within 14 days (allow 5 weeks after stopping fluoxetine before starting MAOI)",
+        "Concurrent pimozide or thioridazine",
+        "Hypersensitivity to fluoxetine"
+      ],
+      "warnings": {
+        "pregnancy": "Category C – associated with neonatal complications and PPHN; benefit-risk discussion required",
+        "breastfeeding": "Higher levels in breast milk compared to other SSRIs; monitor infant; consider alternative if infant is premature/newborn",
+        "elderly": "Use with caution; very long half-life leads to accumulation; increased fall risk",
+        "kidneyDisease": "No dose adjustment; use with caution in severe impairment"
+      },
+      "monitoring": [
+        "Mood, depression symptoms",
+        "Suicidal ideation (especially first 4 weeks in youth)",
+        "Sodium levels (hyponatremia risk in elderly)",
+        "Signs of serotonin syndrome",
+        "Weight changes",
+        "Sexual function"
+      ],
+      "storage": "Store at 20–25°C; protect from moisture and light",
+      "costRange": {
+        "generic": "₹40–₹150 per 30 capsules (India); $4–$20 per 30 capsules (US)",
+        "brand": "₹150–₹500 per 30 capsules (India); $50–$200 per 30 capsules (US)"
+      }
+    },
+    {
+      "medicineName": "Escitalopram",
+      "genericName": "Escitalopram Oxalate",
+      "brandNames": ["Lexapro", "Cipralex", "Nexito", "Stalopam", "Escitrac"],
+      "category": "Mental Health / Antidepressant",
+      "class": "Selective Serotonin Reuptake Inhibitor (SSRI)",
+      "uses": ["Major depressive disorder", "Generalized anxiety disorder", "Social anxiety disorder", "Panic disorder", "OCD"],
+      "dosage": {
+        "adult": {
+          "starting": "10mg once daily",
+          "maximum": "20mg per day",
+          "typical": "10–20mg once daily"
+        },
+        "elderly": "Maximum 10mg per day; increased QT prolongation and hyponatremia risk",
+        "children": "12–17 years (MDD): 10–20mg/day"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["Morning or evening (consistent time)", "Can take with food if nausea occurs"],
+        "avoid": ["MAO inhibitors"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Nausea", "frequency": "Common (15%)", "severity": "Mild (usually transient)"},
+          {"name": "Insomnia", "frequency": "Common (9%)", "severity": "Mild"},
+          {"name": "Somnolence", "frequency": "Common (6%)", "severity": "Mild"},
+          {"name": "Sexual dysfunction", "frequency": "Common (6–14%)", "severity": "Moderate"},
+          {"name": "Dry mouth", "frequency": "Common (9%)", "severity": "Mild"},
+          {"name": "Sweating", "frequency": "Common (8%)", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "QT prolongation (dose-dependent)", "frequency": "Uncommon; greatest risk among SSRIs", "severity": "Moderate to Severe"},
+          {"name": "Serotonin syndrome", "frequency": "Rare (with interactions)", "severity": "Severe"},
+          {"name": "Suicidal ideation (under 25 years)", "frequency": "FDA black box warning", "severity": "Severe"},
+          {"name": "Hyponatremia (SIADH)", "frequency": "Uncommon (especially in elderly)", "severity": "Moderate to Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "MAO inhibitors", "severity": "Major/Absolute contraindication", "effect": "Serotonin syndrome; potentially fatal", "recommendation": "Never combine; 14-day washout from MAOI to escitalopram"},
+          {"drug": "QT-prolonging drugs (amiodarone, haloperidol, methadone)", "severity": "Major", "effect": "Additive QT prolongation", "recommendation": "Avoid combination; escitalopram has dose-dependent QT effect"},
+          {"drug": "Tramadol", "severity": "Moderate", "effect": "Serotonin syndrome risk", "recommendation": "Use with caution; monitor"},
+          {"drug": "Pimozide", "severity": "Major", "effect": "QT prolongation risk", "recommendation": "Contraindicated"}
+        ],
+        "foodInteractions": [
+          {"food": "Alcohol", "effect": "Additive CNS depression; avoid during treatment"},
+          {"food": "Food", "effect": "No significant interaction"}
+        ]
+      },
+      "contraindications": [
+        "Concurrent MAOI use",
+        "Concurrent pimozide",
+        "Congenital QT syndrome or QT prolongation",
+        "Hypersensitivity to escitalopram or citalopram"
+      ],
+      "warnings": {
+        "pregnancy": "Category C – risk-benefit discussion; avoid abrupt cessation in pregnancy",
+        "breastfeeding": "Present in breast milk; monitor infant",
+        "elderly": "Max 10mg/day; QT and hyponatremia risk; fall risk increased",
+        "kidneyDisease": "No dose adjustment for mild/moderate CKD; caution in severe renal impairment"
+      },
+      "monitoring": [
+        "Mood and depressive/anxiety symptoms",
+        "ECG (QT interval) in high-risk patients or >20mg/day",
+        "Sodium levels in elderly",
+        "Suicidal ideation (youth monitoring)",
+        "Signs of serotonin syndrome",
+        "Sexual function"
+      ],
+      "storage": "Store at room temperature (15–30°C), protect from moisture",
+      "costRange": {
+        "generic": "₹50–₹200 per 30 tablets (India); $5–$20 per 30 tablets (US)",
+        "brand": "₹200–₹600 per 30 tablets (India); $50–$200 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Alprazolam",
+      "genericName": "Alprazolam",
+      "brandNames": ["Xanax", "Alprax", "Trika", "Restyl", "Niravam"],
+      "category": "Mental Health / Anxiolytic",
+      "class": "Benzodiazepine",
+      "uses": ["Generalized anxiety disorder", "Panic disorder", "Social anxiety disorder (short-term)", "Anxiety associated with depression"],
+      "dosage": {
+        "adult": {
+          "starting": "0.25–0.5mg three times daily (anxiety); 0.5mg three times daily (panic disorder)",
+          "maximum": "4mg per day (anxiety); 10mg per day (panic disorder)",
+          "typical": "0.25–0.5mg three times daily"
+        },
+        "elderly": "0.125–0.25mg two to three times daily; increased risk of falls, confusion",
+        "children": "Not recommended for children under 18"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["Regular intervals throughout the day", "With or without food"],
+        "avoid": ["Alcohol", "Operating heavy machinery or driving", "Prolonged use (dependence risk)"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Drowsiness/Sedation", "frequency": "Very common (41–77%)", "severity": "Mild to Moderate"},
+          {"name": "Ataxia (coordination problems)", "frequency": "Common (5–40%)", "severity": "Mild to Moderate"},
+          {"name": "Memory impairment", "frequency": "Common", "severity": "Mild to Moderate"},
+          {"name": "Fatigue", "frequency": "Common (13–49%)", "severity": "Mild"},
+          {"name": "Cognitive impairment", "frequency": "Common", "severity": "Mild to Moderate"},
+          {"name": "Dysarthria (slurred speech)", "frequency": "Uncommon", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "Dependence and withdrawal syndrome", "frequency": "Common with prolonged use (>2–4 weeks)", "severity": "Severe"},
+          {"name": "Respiratory depression (with CNS depressants)", "frequency": "Rare (significant risk with opioids)", "severity": "Severe/Life-threatening"},
+          {"name": "Paradoxical reactions (aggression, disinhibition)", "frequency": "Uncommon", "severity": "Moderate"},
+          {"name": "Falls/Hip fractures (elderly)", "frequency": "Common in elderly", "severity": "Moderate to Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Opioids (tramadol, morphine, codeine)", "severity": "Major/Black Box Warning", "effect": "Profound CNS and respiratory depression; risk of fatal overdose", "recommendation": "Avoid combination; FDA black box warning"},
+          {"drug": "Alcohol", "severity": "Major", "effect": "Severe additive CNS and respiratory depression", "recommendation": "Strictly avoid alcohol"},
+          {"drug": "CYP3A4 inhibitors (ketoconazole, ritonavir, clarithromycin)", "severity": "Major", "effect": "Dramatically increases alprazolam levels", "recommendation": "Avoid or significantly reduce alprazolam dose"},
+          {"drug": "Other CNS depressants (antihistamines, antipsychotics)", "severity": "Moderate", "effect": "Additive sedation and CNS depression", "recommendation": "Use with extreme caution"}
+        ],
+        "foodInteractions": [
+          {"food": "Alcohol", "effect": "Life-threatening CNS/respiratory depression; strictly avoid"},
+          {"food": "Grapefruit juice", "effect": "Inhibits CYP3A4; increases alprazolam levels by 50–100%; avoid"}
+        ]
+      },
+      "contraindications": [
+        "Acute narrow-angle glaucoma",
+        "Concurrent itraconazole or ketoconazole use",
+        "Myasthenia gravis",
+        "Severe respiratory insufficiency",
+        "Sleep apnea syndrome",
+        "Hypersensitivity to benzodiazepines",
+        "Pregnancy (especially 1st trimester – cleft palate risk)"
+      ],
+      "warnings": {
+        "pregnancy": "Category D – associated with neonatal withdrawal, floppy infant syndrome; avoid if possible",
+        "breastfeeding": "Not recommended; excreted in breast milk; risk of sedation in infant",
+        "elderly": "Increased fall risk, cognitive impairment, paradoxical reactions; avoid in elderly (Beers Criteria)",
+        "kidneyDisease": "Use with caution; may accumulate; use lower doses"
+      },
+      "monitoring": [
+        "Anxiety/Panic symptoms",
+        "Signs of dependence (dose escalation, withdrawal symptoms)",
+        "Cognitive function",
+        "Respiratory function",
+        "Sedation level and fall risk",
+        "Drug-seeking behavior"
+      ],
+      "storage": "Store at 25°C; excursions to 15–30°C permitted; protect from moisture",
+      "costRange": {
+        "generic": "₹15–₹60 per 30 tablets (India); $5–$20 per 30 tablets (US)",
+        "brand": "₹60–₹200 per 30 tablets (India); $30–$100 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Rosuvastatin",
+      "genericName": "Rosuvastatin Calcium",
+      "brandNames": ["Crestor", "Rozavel", "Rosuvas", "Rosave", "Rosuchek"],
+      "category": "Cardiac / Lipid-lowering",
+      "class": "HMG-CoA Reductase Inhibitor (Statin)",
+      "uses": ["Primary hypercholesterolemia", "Heterozygous and homozygous familial hypercholesterolemia", "Prevention of cardiovascular events", "Reduction of LDL and non-HDL cholesterol"],
+      "dosage": {
+        "adult": {
+          "starting": "5–10mg once daily",
+          "maximum": "40mg once daily",
+          "typical": "10–20mg once daily"
+        },
+        "elderly": "Start at 5mg; myopathy risk is higher",
+        "children": "Children ≥10 years (familial hypercholesterolemia): 5–10mg/day"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["Any time of day", "Evening preferred"],
+        "avoid": ["Antacids containing aluminum/magnesium (2-hour separation)"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Myalgia", "frequency": "Common (2–7%)", "severity": "Mild"},
+          {"name": "Headache", "frequency": "Common (5%)", "severity": "Mild"},
+          {"name": "Nausea", "frequency": "Common", "severity": "Mild"},
+          {"name": "Constipation", "frequency": "Common (3%)", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "Rhabdomyolysis", "frequency": "Rare", "severity": "Severe/Life-threatening"},
+          {"name": "Hepatotoxicity", "frequency": "Very rare", "severity": "Severe"},
+          {"name": "Proteinuria/Hematuria (especially at 40mg)", "frequency": "Uncommon at high doses", "severity": "Moderate"},
+          {"name": "New-onset diabetes", "frequency": "Slightly increased risk", "severity": "Moderate"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Cyclosporine", "severity": "Major", "effect": "10-fold increase in rosuvastatin levels; severe myopathy", "recommendation": "Maximum 5mg rosuvastatin with cyclosporine"},
+          {"drug": "Gemfibrozil", "severity": "Major", "effect": "2-fold increase in rosuvastatin; severe myopathy risk", "recommendation": "Avoid; use fenofibrate instead"},
+          {"drug": "Warfarin", "severity": "Moderate", "effect": "Increases INR", "recommendation": "Monitor INR"},
+          {"drug": "Antacids (Mg/Al)", "severity": "Minor", "effect": "Reduces rosuvastatin levels by ~50%", "recommendation": "Take rosuvastatin 2 hours before antacid"}
+        ],
+        "foodInteractions": [
+          {"food": "Food", "effect": "No significant interaction"},
+          {"food": "High-fat meal", "effect": "No clinically relevant interaction"}
+        ]
+      },
+      "contraindications": [
+        "Active liver disease",
+        "Pregnancy",
+        "Breastfeeding",
+        "Hypersensitivity to rosuvastatin",
+        "Concomitant cyclosporine (dose limitation applies)"
+      ],
+      "warnings": {
+        "pregnancy": "Category X – absolutely contraindicated; teratogenic",
+        "breastfeeding": "Contraindicated",
+        "elderly": "Use with caution; myopathy risk; start at 5mg",
+        "kidneyDisease": "Dose reduction required: eGFR <30: maximum 10mg/day"
+      },
+      "monitoring": [
+        "Lipid panel",
+        "CK (creatine kinase) if muscle pain",
+        "Liver function tests",
+        "Urine protein (dipstick) at high doses",
+        "Blood glucose/HbA1c"
+      ],
+      "storage": "Store at 20–25°C, protect from moisture and light",
+      "costRange": {
+        "generic": "₹30–₹120 per 30 tablets (India); $5–$20 per 30 tablets (US)",
+        "brand": "₹200–₹600 per 30 tablets (India); $50–$200 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Furosemide",
+      "genericName": "Furosemide",
+      "brandNames": ["Lasix", "Frusemide", "Frusenex", "Diuver", "Lorinid"],
+      "category": "Diuretic / Cardiac",
+      "class": "Loop Diuretic",
+      "uses": ["Edema (heart failure, cirrhosis, nephrotic syndrome)", "Hypertension (adjunct)", "Pulmonary edema (acute)", "Hypercalcemia"],
+      "dosage": {
+        "adult": {
+          "starting": "20–40mg once or twice daily",
+          "maximum": "600mg per day (in severe edema)",
+          "typical": "40–80mg once or twice daily"
+        },
+        "elderly": "Start at 20mg; increased electrolyte disturbance and dehydration risk",
+        "children": "1–2mg/kg once or twice daily; max 6mg/kg/day"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["Morning (to avoid nocturia)", "Morning and early afternoon if twice daily"],
+        "avoid": ["Evening/Night dosing (causes nocturia)"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Hypokalemia", "frequency": "Very common (>10%)", "severity": "Moderate"},
+          {"name": "Hyponatremia", "frequency": "Common", "severity": "Moderate"},
+          {"name": "Dizziness/Orthostatic hypotension", "frequency": "Common", "severity": "Mild to Moderate"},
+          {"name": "Dehydration (excessive diuresis)", "frequency": "Common", "severity": "Mild to Moderate"},
+          {"name": "Increased urination frequency", "frequency": "Very common", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "Ototoxicity (hearing loss – especially IV)", "frequency": "Uncommon (dose-related)", "severity": "Severe"},
+          {"name": "Severe electrolyte imbalance", "frequency": "Common without monitoring", "severity": "Severe"},
+          {"name": "Acute kidney injury (with dehydration)", "frequency": "Uncommon", "severity": "Moderate to Severe"},
+          {"name": "Metabolic alkalosis", "frequency": "Uncommon", "severity": "Moderate"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Digoxin", "severity": "Major", "effect": "Furosemide-induced hypokalemia increases digoxin toxicity", "recommendation": "Monitor potassium and digoxin levels closely"},
+          {"drug": "Aminoglycosides (gentamicin)", "severity": "Major", "effect": "Additive ototoxicity and nephrotoxicity", "recommendation": "Avoid combination if possible; monitor closely"},
+          {"drug": "NSAIDs", "severity": "Moderate", "effect": "Reduces diuretic efficacy; increases renal failure risk", "recommendation": "Avoid regular NSAID use"},
+          {"drug": "ACE inhibitors/ARBs", "severity": "Moderate", "effect": "First-dose hypotension risk; additive antihypertensive effect", "recommendation": "Start with low furosemide dose; monitor BP"}
+        ],
+        "foodInteractions": [
+          {"food": "Food", "effect": "Can be taken with or without food"},
+          {"food": "Licorice", "effect": "Additive potassium loss"}
+        ]
+      },
+      "contraindications": [
+        "Anuria",
+        "Hypersensitivity to furosemide or sulfonamides",
+        "Severe hypovolemia or dehydration",
+        "Hepatic coma or precoma",
+        "Hypokalemia or hyponatremia (uncorrected)"
+      ],
+      "warnings": {
+        "pregnancy": "Category C – used for edema unresponsive to rest and sodium restriction; monitor fetal wellbeing",
+        "breastfeeding": "May suppress lactation; use with caution",
+        "elderly": "High risk of dehydration, electrolyte imbalance, and falls; start at lowest dose",
+        "kidneyDisease": "Higher doses often needed to maintain efficacy; monitor electrolytes and renal function closely"
+      },
+      "monitoring": [
+        "Serum electrolytes (potassium, sodium, magnesium, calcium)",
+        "Renal function (creatinine, eGFR)",
+        "Blood pressure",
+        "Body weight and fluid balance",
+        "Hearing (with high doses or IV administration)",
+        "Blood glucose (may cause hyperglycemia)"
+      ],
+      "storage": "Store at room temperature; protect from light",
+      "costRange": {
+        "generic": "₹10–₹40 per 30 tablets (India); $3–$15 per 30 tablets (US)",
+        "brand": "₹30–₹100 per 30 tablets (India); $15–$40 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Warfarin",
+      "genericName": "Warfarin Sodium",
+      "brandNames": ["Coumadin", "Warf", "Sofarin", "Aldocumar"],
+      "category": "Anticoagulant",
+      "class": "Vitamin K Antagonist",
+      "uses": ["Deep vein thrombosis treatment and prevention", "Pulmonary embolism", "Atrial fibrillation (stroke prevention)", "Mechanical heart valves", "Post-MI (selected patients)"],
+      "dosage": {
+        "adult": {
+          "starting": "2–5mg once daily; individualized based on INR",
+          "maximum": "Individualized; typically 2–10mg/day",
+          "typical": "2–10mg once daily; dose adjusted to target INR"
+        },
+        "elderly": "Start at 1–2mg; very sensitive to warfarin; frequent INR monitoring required",
+        "children": "Specialist dosing; 0.1–0.2mg/kg/day initially; adjust to target INR"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["Same time every evening", "Consistent vitamin K intake in diet is essential"],
+        "avoid": ["Variable vitamin K intake (spinach, broccoli, kale fluctuation)", "Alcohol bingeing"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Bruising", "frequency": "Common", "severity": "Mild"},
+          {"name": "Minor bleeding (nosebleed, gum bleeding)", "frequency": "Common", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "Major bleeding (GI, urinary, intracranial)", "frequency": "Uncommon (1–2%/year major)", "severity": "Severe/Life-threatening"},
+          {"name": "Warfarin-induced skin necrosis (protein C deficiency)", "frequency": "Rare (first week of therapy)", "severity": "Severe"},
+          {"name": "Purple toe syndrome", "frequency": "Very rare", "severity": "Moderate"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "NSAIDs/Aspirin", "severity": "Major", "effect": "Markedly increased bleeding risk", "recommendation": "Avoid; use paracetamol for pain"},
+          {"drug": "Antibiotics (fluconazole, metronidazole, quinolones)", "severity": "Major", "effect": "Significant INR increase", "recommendation": "Monitor INR closely during antibiotic course"},
+          {"drug": "Amiodarone", "severity": "Major", "effect": "Doubles warfarin effect; major bleeding risk", "recommendation": "Reduce warfarin dose by 30–50% and monitor INR intensively"},
+          {"drug": "Enzyme inducers (rifampicin, phenytoin, carbamazepine)", "severity": "Major", "effect": "Significantly reduces warfarin effect; clotting risk", "recommendation": "Monitor INR closely; dose increase needed"}
+        ],
+        "foodInteractions": [
+          {"food": "Vitamin K-rich foods (spinach, kale, broccoli)", "effect": "Reduces anticoagulant effect; maintain consistent intake, don't avoid but keep consistent"},
+          {"food": "Grapefruit", "effect": "May slightly increase warfarin levels"},
+          {"food": "Cranberry juice", "effect": "May increase INR; use in moderation"},
+          {"food": "Alcohol", "effect": "Chronic use decreases warfarin effect; acute binging increases bleeding risk"}
+        ]
+      },
+      "contraindications": [
+        "Active major bleeding",
+        "Unsupervised noncompliant patient",
+        "Pregnancy (1st trimester and near term – fetotoxic)",
+        "Hemorrhagic stroke or neurosurgery",
+        "Thrombocytopenia with prior heparin use"
+      ],
+      "warnings": {
+        "pregnancy": "Category X – causes fetal warfarin syndrome (1st trimester); intracranial hemorrhage (3rd trimester); use LMWH instead",
+        "breastfeeding": "Compatible with breastfeeding; minimal transfer to breast milk",
+        "elderly": "Extremely sensitive; start very low; target lower INR range if appropriate; falls risk",
+        "kidneyDisease": "Increased bleeding risk in renal impairment; monitor INR more frequently"
+      },
+      "monitoring": [
+        "INR (target depends on indication: 2–3 for most; 2.5–3.5 for mechanical valves)",
+        "Signs of bleeding (stool color, urine, unusual bruising)",
+        "Consistency of vitamin K intake",
+        "All new medications (very extensive drug interactions)",
+        "Liver function (affects warfarin metabolism)"
+      ],
+      "storage": "Store at room temperature (15–30°C), protect from light and moisture",
+      "costRange": {
+        "generic": "₹15–₹60 per 30 tablets (India); $4–$20 per 30 tablets (US)",
+        "brand": "₹50–₹200 per 30 tablets (India); $30–$100 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Prednisolone",
+      "genericName": "Prednisolone Sodium Phosphate",
+      "brandNames": ["Wysolone", "Omnacortil", "Deltacortril", "Prelone"],
+      "category": "Corticosteroid / Anti-inflammatory",
+      "class": "Systemic Glucocorticoid",
+      "uses": ["Severe allergic reactions", "Inflammatory conditions (rheumatoid arthritis, SLE)", "Asthma (severe)", "COPD exacerbations", "Autoimmune disorders", "Organ transplant rejection prevention", "Adrenal insufficiency"],
+      "dosage": {
+        "adult": {
+          "starting": "5–60mg per day (depending on indication)",
+          "maximum": "1–2mg/kg/day in acute conditions",
+          "typical": "Initial: 40–60mg/day; taper over weeks to months"
+        },
+        "elderly": "Use minimum effective dose; osteoporosis prophylaxis (calcium + vitamin D) required",
+        "children": "0.1–2mg/kg/day; dose depends on severity of condition; specialist guidance required"
+      },
+      "timing": {
+        "withFood": true,
+        "emptyStomach": false,
+        "preferredTimes": ["Morning (to mimic natural cortisol rhythm and minimize HPA suppression)", "With breakfast"],
+        "avoid": ["Evening dosing (causes insomnia if possible)", "Abrupt discontinuation"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Weight gain", "frequency": "Very common", "severity": "Mild to Moderate"},
+          {"name": "Fluid retention", "frequency": "Common", "severity": "Mild"},
+          {"name": "Mood changes/Euphoria/Insomnia", "frequency": "Common", "severity": "Mild to Moderate"},
+          {"name": "Increased appetite", "frequency": "Very common", "severity": "Mild"},
+          {"name": "Hyperglycemia", "frequency": "Common", "severity": "Moderate"}
+        ],
+        "serious": [
+          {"name": "Osteoporosis/Vertebral fractures", "frequency": "Common with long-term use", "severity": "Severe"},
+          {"name": "Adrenal suppression (Cushing's syndrome)", "frequency": "Common with long-term use", "severity": "Severe"},
+          {"name": "Opportunistic infections", "frequency": "Uncommon (immunosuppression)", "severity": "Severe"},
+          {"name": "Cataracts/Glaucoma", "frequency": "Common with long-term use", "severity": "Moderate to Severe"},
+          {"name": "Avascular necrosis of femoral head", "frequency": "Uncommon with high doses", "severity": "Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "NSAIDs", "severity": "Moderate", "effect": "Additive GI ulceration risk", "recommendation": "Avoid or add PPI"},
+          {"drug": "Warfarin", "severity": "Moderate", "effect": "May increase or decrease anticoagulant effect; unpredictable", "recommendation": "Monitor INR closely"},
+          {"drug": "Antidiabetic drugs", "severity": "Moderate", "effect": "Corticosteroids increase blood glucose; may need higher antidiabetic doses", "recommendation": "Monitor blood glucose closely"},
+          {"drug": "Live vaccines", "severity": "Major", "effect": "Immunosuppression may allow vaccine-acquired infection", "recommendation": "Avoid live vaccines during immunosuppressive steroid therapy"}
+        ],
+        "foodInteractions": [
+          {"food": "Food", "effect": "Take with food to reduce GI irritation"},
+          {"food": "Licorice", "effect": "Potentiates corticosteroid effects"},
+          {"food": "Sodium/salt", "effect": "May worsen fluid retention; consider low-sodium diet"}
+        ]
+      },
+      "contraindications": [
+        "Systemic fungal infections",
+        "Hypersensitivity to prednisolone",
+        "Live virus vaccination during immunosuppressive therapy",
+        "Untreated serious infections (relative)"
+      ],
+      "warnings": {
+        "pregnancy": "Category C – used when benefit outweighs risk; risk of cleft palate in 1st trimester; adrenal suppression in neonate",
+        "breastfeeding": "Compatible at low doses; higher doses may affect infant adrenal function",
+        "elderly": "Very high risk of osteoporosis; always prescribe calcium + Vitamin D; fall risk monitoring required",
+        "kidneyDisease": "Use with caution; fluid retention risk; monitor blood pressure and glucose"
+      },
+      "monitoring": [
+        "Blood glucose (regular monitoring; DM may be unmasked)",
+        "Blood pressure",
+        "Weight and fluid balance",
+        "Bone density (DEXA scan with long-term use)",
+        "Eye exam (cataracts, glaucoma)",
+        "Signs of infection",
+        "Potassium levels",
+        "HPA axis function (with prolonged use)"
+      ],
+      "storage": "Store at room temperature (15–30°C), protect from moisture",
+      "costRange": {
+        "generic": "₹10–₹60 per 30 tablets (India); $5–$20 per 30 tablets (US)",
+        "brand": "₹40–₹150 per 30 tablets (India); $15–$60 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Cetirizine",
+      "genericName": "Cetirizine Hydrochloride",
+      "brandNames": ["Zyrtec", "Cetzine", "Okacet", "Alerid", "Reactine"],
+      "category": "Antihistamine / Allergy",
+      "class": "Second-Generation H1 Antihistamine",
+      "uses": ["Allergic rhinitis (seasonal and perennial)", "Chronic urticaria", "Allergic conjunctivitis", "Atopic dermatitis (adjunct)"],
+      "dosage": {
+        "adult": {
+          "starting": "5–10mg once daily",
+          "maximum": "10mg per day",
+          "typical": "10mg once daily"
+        },
+        "elderly": "5mg once daily; may cause more sedation",
+        "children": "6 months–2 years: 2.5mg once daily; 2–6 years: 2.5mg twice daily or 5mg once daily; ≥6 years: 5–10mg once daily"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["Evening (if sedation occurs)", "Any time – minimal sedation at standard doses"],
+        "avoid": ["Alcohol (additive sedation)"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Drowsiness (less than first-gen antihistamines)", "frequency": "Common (11–14%)", "severity": "Mild"},
+          {"name": "Dry mouth", "frequency": "Common (5%)", "severity": "Mild"},
+          {"name": "Headache", "frequency": "Common", "severity": "Mild"},
+          {"name": "Fatigue", "frequency": "Uncommon", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "Urinary retention (rare)", "frequency": "Rare", "severity": "Moderate"},
+          {"name": "QT prolongation (very rare, overdose)", "frequency": "Very rare", "severity": "Moderate to Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "CNS depressants (benzodiazepines, opioids)", "severity": "Minor to Moderate", "effect": "Additive sedation", "recommendation": "Use with caution"},
+          {"drug": "Theophylline", "severity": "Minor", "effect": "Minor reduction in theophylline clearance", "recommendation": "Minimal clinical significance at usual doses"}
+        ],
+        "foodInteractions": [
+          {"food": "Alcohol", "effect": "Increased sedation; avoid"},
+          {"food": "Food", "effect": "No significant interaction"}
+        ]
+      },
+      "contraindications": [
+        "Hypersensitivity to cetirizine or hydroxyzine",
+        "End-stage renal disease (without dose adjustment)",
+        "Caution in patients with known QT prolongation"
+      ],
+      "warnings": {
+        "pregnancy": "Category B – generally considered safe; used when clearly needed",
+        "breastfeeding": "Not recommended; excreted in breast milk",
+        "elderly": "Use 5mg dose; increased risk of sedation and urinary retention",
+        "kidneyDisease": "Dose reduction required: eGFR 11–30: 5mg once daily; eGFR <10 or dialysis: 5mg every 48 hours"
+      },
+      "monitoring": [
+        "Allergy symptom relief",
+        "Sedation level (especially in elderly)",
+        "Renal function (for dose adjustment)"
+      ],
+      "storage": "Store at room temperature (15–30°C), protect from moisture",
+      "costRange": {
+        "generic": "₹10–₹40 per 30 tablets (India); $3–$12 per 30 tablets (US)",
+        "brand": "₹40–₹120 per 30 tablets (India); $10–$30 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Gabapentin",
+      "genericName": "Gabapentin",
+      "brandNames": ["Neurontin", "Gabantin", "Gabapin", "Gaptin", "Neurogab"],
+      "category": "Anticonvulsant / Neuropathic Pain",
+      "class": "Calcium Channel Alpha-2-Delta Ligand (GABA analogue)",
+      "uses": ["Epilepsy (partial seizures, add-on)", "Neuropathic pain (diabetic neuropathy, post-herpetic neuralgia)", "Restless leg syndrome", "Fibromyalgia", "Hot flashes (off-label)"],
+      "dosage": {
+        "adult": {
+          "starting": "300mg on day 1; 300mg twice daily on day 2; 300mg three times daily on day 3",
+          "maximum": "3600mg per day in divided doses",
+          "typical": "300–600mg three times daily for neuropathic pain; 900–1800mg/day for epilepsy"
+        },
+        "elderly": "Start at 100–300mg; increased sedation and ataxia risk; dose titration required",
+        "children": "3–12 years: 10–15mg/kg/day in 3 divided doses; ≥12 years: adult dosing"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["Three times daily at regular intervals (every 8 hours)", "With or without food"],
+        "avoid": ["Abrupt discontinuation (seizure risk in epilepsy patients)", "Driving until stable on medication"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Dizziness", "frequency": "Very common (17–28%)", "severity": "Mild to Moderate"},
+          {"name": "Somnolence/Fatigue", "frequency": "Very common (19–21%)", "severity": "Mild to Moderate"},
+          {"name": "Ataxia (coordination problems)", "frequency": "Common (13%)", "severity": "Mild to Moderate"},
+          {"name": "Peripheral edema", "frequency": "Common (8%)", "severity": "Mild"},
+          {"name": "Weight gain", "frequency": "Common (3–5%)", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "Respiratory depression (with CNS depressants/opioids)", "frequency": "Uncommon; black box warning with opioids", "severity": "Severe/Life-threatening"},
+          {"name": "Suicidal ideation (all antiepileptics)", "frequency": "FDA black box warning (small increase)", "severity": "Severe"},
+          {"name": "Drug abuse/dependence", "frequency": "Increasing reports", "severity": "Moderate to Severe"},
+          {"name": "DRESS syndrome", "frequency": "Very rare", "severity": "Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Opioids", "severity": "Major (Black Box Warning)", "effect": "Severe respiratory depression and death", "recommendation": "Avoid combination; FDA black box warning added; if necessary, use lowest doses and monitor closely"},
+          {"drug": "CNS depressants (benzodiazepines, alcohol)", "severity": "Major", "effect": "Additive CNS and respiratory depression", "recommendation": "Avoid combination; caution if necessary"},
+          {"drug": "Antacids (aluminum/magnesium)", "severity": "Minor", "effect": "Reduces gabapentin absorption by 20%", "recommendation": "Take gabapentin 2 hours after antacids"}
+        ],
+        "foodInteractions": [
+          {"food": "Alcohol", "effect": "Severe additive CNS depression; strictly avoid"},
+          {"food": "High-fat meal", "effect": "May increase gabapentin absorption slightly; not clinically significant"}
+        ]
+      },
+      "contraindications": [
+        "Hypersensitivity to gabapentin",
+        "Acute angle-closure glaucoma (relative)"
+      ],
+      "warnings": {
+        "pregnancy": "Category C – insufficient data; antiepileptic drug with potential teratogenicity; use with extreme caution",
+        "breastfeeding": "Present in breast milk; monitor infant for sedation",
+        "elderly": "Increased sedation, ataxia, and falls; dose reduction essential; monitor closely",
+        "kidneyDisease": "Major dose reduction required based on eGFR; gabapentin renally cleared; hemodialysis patients need supplemental doses"
+      },
+      "monitoring": [
+        "Pain/seizure control",
+        "Renal function (dose adjustment)",
+        "Signs of suicidal ideation",
+        "Sedation and fall risk",
+        "Signs of drug misuse",
+        "Respiratory function (with opioid combinations)"
+      ],
+      "storage": "Store at 25°C; excursions to 15–30°C permitted; protect from moisture",
+      "costRange": {
+        "generic": "₹30–₹150 per 30 capsules (India); $5–$30 per 30 capsules (US)",
+        "brand": "₹100–₹400 per 30 capsules (India); $30–$100 per 30 capsules (US)"
+      }
+    },
+    {
+      "medicineName": "Amlodipine + Losartan",
+      "genericName": "Amlodipine Besylate + Losartan Potassium",
+      "brandNames": ["Caduet (atorvastatin combo)", "Losacar-AM", "Repace-AM", "Amlopress-AT", "Angiotan-AM"],
+      "category": "Antihypertensive (Combination)",
+      "class": "Calcium Channel Blocker + Angiotensin II Receptor Blocker",
+      "uses": ["Hypertension requiring combination therapy", "Patients inadequately controlled on monotherapy"],
+      "dosage": {
+        "adult": {
+          "starting": "Amlodipine 5mg + Losartan 50mg once daily",
+          "maximum": "Amlodipine 10mg + Losartan 100mg",
+          "typical": "Amlodipine 5mg + Losartan 50mg once daily"
+        },
+        "elderly": "Start at lowest available combination strength",
+        "children": "Not recommended"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["Morning", "Same time daily"],
+        "avoid": ["Grapefruit juice"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Peripheral edema (from amlodipine component)", "frequency": "Common", "severity": "Mild"},
+          {"name": "Dizziness", "frequency": "Common", "severity": "Mild"},
+          {"name": "Hyperkalemia (from losartan)", "frequency": "Uncommon", "severity": "Moderate"}
+        ],
+        "serious": [
+          {"name": "Angioedema (from losartan component)", "frequency": "Rare", "severity": "Severe"},
+          {"name": "Acute renal failure", "frequency": "Rare", "severity": "Severe"},
+          {"name": "Severe hypotension", "frequency": "Uncommon", "severity": "Moderate to Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "See individual drug interactions for Amlodipine and Losartan", "severity": "Varies", "effect": "Interactions of both components apply", "recommendation": "Check individual drug profiles"}
+        ],
+        "foodInteractions": [
+          {"food": "Grapefruit juice", "effect": "May increase amlodipine levels"},
+          {"food": "High potassium foods", "effect": "Hyperkalemia risk from losartan component"}
+        ]
+      },
+      "contraindications": [
+        "Pregnancy",
+        "Bilateral renal artery stenosis",
+        "Hypersensitivity to either component",
+        "Severe aortic stenosis"
+      ],
+      "warnings": {
+        "pregnancy": "Category D – fetotoxic; stop immediately",
+        "breastfeeding": "Not recommended",
+        "elderly": "Increased sensitivity; use lowest dose",
+        "kidneyDisease": "Monitor closely; losartan may worsen renal function"
+      },
+      "monitoring": [
+        "Blood pressure",
+        "Renal function",
+        "Potassium",
+        "Signs of angioedema"
+      ],
+      "storage": "Store at room temperature (15–30°C), protect from moisture",
+      "costRange": {
+        "generic": "₹60–₹200 per 30 tablets (India); $15–$50 per 30 tablets (US)",
+        "brand": "₹200–₹500 per 30 tablets (India)"
+      }
+    },
+    {
+      "medicineName": "Clonazepam",
+      "genericName": "Clonazepam",
+      "brandNames": ["Klonopin", "Rivotril", "Clonapax", "Lonazep", "Melzap"],
+      "category": "Anticonvulsant / Anxiolytic",
+      "class": "Benzodiazepine",
+      "uses": ["Epilepsy (absence seizures, myoclonic, atonic)", "Panic disorder", "Anxiety disorders", "Restless leg syndrome (off-label)"],
+      "dosage": {
+        "adult": {
+          "starting": "0.25–0.5mg twice daily",
+          "maximum": "20mg per day (epilepsy); 4mg per day (panic disorder)",
+          "typical": "0.5–2mg twice to three times daily"
+        },
+        "elderly": "Start at 0.25mg; increased fall and sedation risk",
+        "children": "Epilepsy: 0.01–0.03mg/kg/day in 2–3 divided doses; max 0.2mg/kg/day"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["Evening (single dose for anxiety/seizure prophylaxis)", "Divided doses for epilepsy"],
+        "avoid": ["Abrupt discontinuation (seizures)", "Alcohol"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Drowsiness/Sedation", "frequency": "Very common (50%)", "severity": "Mild to Moderate"},
+          {"name": "Ataxia", "frequency": "Common (30%)", "severity": "Mild to Moderate"},
+          {"name": "Memory impairment", "frequency": "Common", "severity": "Mild to Moderate"},
+          {"name": "Increased salivation (children)", "frequency": "Common in children", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "Respiratory depression (with opioids/CNS depressants)", "frequency": "Uncommon; major risk", "severity": "Severe/Life-threatening"},
+          {"name": "Dependence and withdrawal (seizures on abrupt stop)", "frequency": "Common with prolonged use", "severity": "Severe"},
+          {"name": "Paradoxical reactions", "frequency": "Uncommon", "severity": "Moderate"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Opioids", "severity": "Major", "effect": "Fatal respiratory depression", "recommendation": "FDA black box warning; avoid combination"},
+          {"drug": "CYP3A4 inhibitors (azole antifungals)", "severity": "Major", "effect": "Increases clonazepam levels", "recommendation": "Reduce dose; monitor closely"},
+          {"drug": "Valproate", "severity": "Moderate", "effect": "May precipitate absence status epilepticus in some patients", "recommendation": "Monitor seizure control"}
+        ],
+        "foodInteractions": [
+          {"food": "Alcohol", "effect": "Severe CNS and respiratory depression; strictly avoid"},
+          {"food": "Grapefruit", "effect": "May increase clonazepam levels"}
+        ]
+      },
+      "contraindications": [
+        "Severe hepatic disease",
+        "Acute narrow-angle glaucoma",
+        "Myasthenia gravis",
+        "Severe respiratory insufficiency",
+        "Sleep apnea",
+        "Hypersensitivity to benzodiazepines"
+      ],
+      "warnings": {
+        "pregnancy": "Category D – associated with cleft palate (1st trimester); neonatal withdrawal",
+        "breastfeeding": "Not recommended; causes sedation in infant",
+        "elderly": "Avoid (Beers Criteria); increased fall and cognitive impairment risk",
+        "kidneyDisease": "Use with caution; dose reduction may be needed"
+      },
+      "monitoring": [
+        "Seizure control",
+        "Anxiety/panic symptoms",
+        "Sedation and fall risk",
+        "Signs of dependence",
+        "Respiratory function",
+        "Liver function tests"
+      ],
+      "storage": "Store at 25°C; protect from moisture and light",
+      "costRange": {
+        "generic": "₹15–₹70 per 30 tablets (India); $5–$25 per 30 tablets (US)",
+        "brand": "₹60–₹200 per 30 tablets (India); $30–₹100 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Ramipril",
+      "genericName": "Ramipril",
+      "brandNames": ["Altace", "Cardace", "Ramace", "Hopace", "Corpril"],
+      "category": "Antihypertensive / Cardiac",
+      "class": "ACE Inhibitor",
+      "uses": ["Hypertension", "Heart failure", "Post-MI cardioprotection", "Diabetic nephropathy", "Cardiovascular risk reduction in high-risk patients"],
+      "dosage": {
+        "adult": {
+          "starting": "2.5mg once daily",
+          "maximum": "10mg per day",
+          "typical": "5–10mg once daily"
+        },
+        "elderly": "Start at 1.25mg; careful titration",
+        "children": "Not well established"
+      },
+      "timing": {
+        "withFood": false,
+        "emptyStomach": false,
+        "preferredTimes": ["Morning", "Any consistent time"],
+        "avoid": ["Salt substitutes with potassium"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Dry persistent cough", "frequency": "Common (10–15%)", "severity": "Mild to Moderate"},
+          {"name": "Dizziness", "frequency": "Common", "severity": "Mild"},
+          {"name": "Hyperkalemia", "frequency": "Common (5%)", "severity": "Moderate"},
+          {"name": "Hypotension (first dose)", "frequency": "Uncommon", "severity": "Mild to Moderate"}
+        ],
+        "serious": [
+          {"name": "Angioedema", "frequency": "Rare (0.1–0.5%)", "severity": "Severe/Life-threatening"},
+          {"name": "Acute renal failure (bilateral renal artery stenosis)", "frequency": "Rare", "severity": "Severe"},
+          {"name": "Severe hyperkalemia", "frequency": "Uncommon", "severity": "Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "Potassium supplements / Potassium-sparing diuretics", "severity": "Major", "effect": "Severe hyperkalemia", "recommendation": "Avoid or monitor potassium closely"},
+          {"drug": "NSAIDs", "severity": "Moderate", "effect": "Reduces antihypertensive effect; increases renal failure risk", "recommendation": "Avoid regular NSAIDs"},
+          {"drug": "Aliskiren", "severity": "Major", "effect": "Dual RAAS; contraindicated in diabetes/CKD", "recommendation": "Contraindicated"}
+        ],
+        "foodInteractions": [
+          {"food": "High potassium foods", "effect": "Risk of hyperkalemia"},
+          {"food": "Salt substitutes", "effect": "Hyperkalemia risk"}
+        ]
+      },
+      "contraindications": [
+        "History of ACE inhibitor-induced angioedema",
+        "Pregnancy",
+        "Bilateral renal artery stenosis",
+        "Concurrent aliskiren in diabetes/CKD"
+      ],
+      "warnings": {
+        "pregnancy": "Category D – contraindicated",
+        "breastfeeding": "Not recommended",
+        "elderly": "Start low; monitor renal function and potassium",
+        "kidneyDisease": "Dose reduction required; monitor carefully"
+      },
+      "monitoring": [
+        "Blood pressure",
+        "Renal function (creatinine, eGFR)",
+        "Serum potassium",
+        "Signs of angioedema"
+      ],
+      "storage": "Store at 25°C (77°F), protect from moisture",
+      "costRange": {
+        "generic": "₹20–₹90 per 30 tablets (India); $5–$20 per 30 tablets (US)",
+        "brand": "₹100–₹350 per 30 tablets (India); $25–₹80 per 30 tablets (US)"
+      }
+    },
+    {
+      "medicineName": "Spironolactone",
+      "genericName": "Spironolactone",
+      "brandNames": ["Aldactone", "Spirolone", "Aldactacine", "Berlactone"],
+      "category": "Diuretic / Antihypertensive / Cardiac",
+      "class": "Potassium-sparing Diuretic / Aldosterone Antagonist",
+      "uses": ["Heart failure (reduces mortality)", "Primary hyperaldosteronism", "Edema (hepatic cirrhosis, nephrotic syndrome)", "Hypertension (resistant)", "Hypokalemia prevention with other diuretics", "Polycystic ovary syndrome (PCOS) – anti-androgen"],
+      "dosage": {
+        "adult": {
+          "starting": "25mg once daily",
+          "maximum": "400mg per day (edema); 50mg/day (heart failure)",
+          "typical": "25–50mg once daily (heart failure); 100–400mg/day for hyperaldosteronism"
+        },
+        "elderly": "Start at 12.5–25mg; strict potassium monitoring",
+        "children": "1–3mg/kg/day in divided doses"
+      },
+      "timing": {
+        "withFood": true,
+        "emptyStomach": false,
+        "preferredTimes": ["With food to increase bioavailability", "Morning or twice daily"],
+        "avoid": ["Salt substitutes with potassium"]
+      },
+      "sideEffects": {
+        "common": [
+          {"name": "Hyperkalemia", "frequency": "Common (5–10%)", "severity": "Moderate to Severe"},
+          {"name": "Gynecomastia in men", "frequency": "Common (dose-dependent)", "severity": "Mild to Moderate"},
+          {"name": "Breast tenderness", "frequency": "Common", "severity": "Mild"},
+          {"name": "Menstrual irregularities in women", "frequency": "Common", "severity": "Mild"},
+          {"name": "GI upset", "frequency": "Common", "severity": "Mild"}
+        ],
+        "serious": [
+          {"name": "Severe hyperkalemia (cardiac arrhythmias)", "frequency": "Uncommon", "severity": "Severe/Life-threatening"},
+          {"name": "Metabolic acidosis (hyperchloremic)", "frequency": "Uncommon", "severity": "Moderate"},
+          {"name": "Agranulocytosis", "frequency": "Very rare", "severity": "Severe"}
+        ]
+      },
+      "interactions": {
+        "drugInteractions": [
+          {"drug": "ACE inhibitors/ARBs", "severity": "Major", "effect": "Additive hyperkalemia risk; severe cardiac arrhythmia", "recommendation": "Monitor potassium levels very carefully; combination is standard in HF but with close monitoring"},
+          {"drug": "NSAIDs", "severity": "Moderate", "effect": "Reduces diuretic effect; increased hyperkalemia and renal failure risk", "recommendation": "Avoid regular NSAID use"},
+          {"drug": "Digoxin", "severity": "Moderate", "effect": "Spironolactone can increase digoxin levels", "recommendation": "Monitor digoxin levels"},
+          {"drug": "Potassium supplements", "severity": "Major", "effect": "Severe hyperkalemia", "recommendation": "Avoid potassium supplements"}
+        ],
+        "foodInteractions": [
+          {"food": "High potassium foods", "effect": "Hyperkalemia risk; advise moderate intake of potassium-rich foods"},
+          {"food": "Food", "effect": "Take with food; improves bioavailability and reduces GI side effects"}
+        ]
+      },
+      "contraindications": [
+        "Hyperkalemia (K+ > 5.0 mEq/L)",
+        "Addison's disease",
+        "Anuria",
+        "Severe renal impairment (eGFR <30)",
+        "Hypersensitivity to spironolactone"
+      ],
+      "warnings": {
+        "pregnancy": "Category D – anti-androgenic; feminization of male fetus; avoid",
+        "breastfeeding": "Excreted in breast milk; not recommended",
+        "elderly": "High risk of hyperkalemia and hyponatremia; start low and monitor closely",
+        "kidneyDisease": "Avoid if eGFR <30; careful monitoring with mild/moderate CKD due to hyperkalemia risk"
+      },
+      "monitoring": [
+        "Serum potassium (every 1–4 weeks when starting or changing dose)",
+        "Renal function (creatinine, eGFR)",
+        "Blood pressure",
+        "Signs of hyperkalemia (weakness, palpitations)",
+        "Blood glucose (in diabetics)",
+        "Gynecomastia assessment"
+      ],
+      "storage": "Store at 25°C; excursions to 15–30°C permitted; protect from light",
+      "costRange": {
+        "generic": "₹20–₹80 per 30 tablets (India); $5–$20 per 30 tablets (US)",
+        "brand": "₹80–₹250 per 30 tablets (India); $20–$60 per 30 tablets (US)"
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-01-01",
+    "totalMedicines": 40,
+    "categories": [
+      "Antidiabetic",
+      "Antihypertensive",
+      "Antibiotic",
+      "Analgesic / Antipyretic",
+      "Cardiac",
+      "Thyroid",
+      "Acid Reflux / GI",
+      "Asthma / Bronchodilator",
+      "Mental Health",
+      "Anticoagulant",
+      "Diuretic",
+      "Antihistamine",
+      "Anticonvulsant",
+      "Corticosteroid"
+    ],
+    "disclaimer": "This database is for informational and development purposes only. Always consult a qualified healthcare professional for medical advice, diagnosis, or treatment. Dosage information may vary by region, indication, and patient factors."
+  }
+}

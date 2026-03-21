@@ -1,0 +1,6 @@
+{
+  "expo_project_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+  "expo_username": "your-expo-username",
+  "groq_api_key": "gsk_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "mongo_uri": "mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/SmartMedicineDB?retryWrites=true&w=majority&appName=Cluster0"
+}

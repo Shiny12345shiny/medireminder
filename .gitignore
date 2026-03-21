@@ -1,0 +1,144 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs/
+*.log
+
+# Build outputs
+dist/
+build/
+*.tgz
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Database
+data/
+*.db
+*.sqlite
+
+# Backend specific
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Expo (Mobile App)
+app/.expo/
+app/.expo-shared/
+app/dist/
+app/web-build/
+
+# React Native
+app/android/
+app/ios/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Expo
+app/*.jks
+app/*.p8
+app/*.p12
+app/*.key
+app/*.mobileprovision
+app/*.orig.*
+app/eas.json
+
+# Metro
+app/.metro-health-check*
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Testing
+*.test.js.snap
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Windows
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Package manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Certificates and keys
+*.pem
+*.crt
+*.cer
+*.der
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+
+# Documentation builds
+docs/_build/
+docs/.doctrees/
+
+# Local development
+.local/
+
+# Miscellaneous
+.env.backup
+.vercel
